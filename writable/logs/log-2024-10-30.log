@@ -1,0 +1,4 @@
+CRITICAL - 2024-10-30 12:34:24 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}

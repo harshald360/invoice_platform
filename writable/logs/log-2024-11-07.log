@@ -1,0 +1,24 @@
+CRITICAL - 2024-11-07 13:33:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-07 13:33:34 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-07 13:33:56 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-07 13:36:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-07 13:39:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-07 13:56:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}

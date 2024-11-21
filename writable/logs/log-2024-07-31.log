@@ -1,0 +1,14 @@
+INFO - 2024-07-31 06:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-31 06:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-31 08:24:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "journey/index.php"
+[Method: GET, Route: journey/eligibility/smart%20watch]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('journey/index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('journey/index', [], true)
+ 3 APPPATH/Controllers/Journey.php(14): view('journey/index')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Journey->fProductEligibilityCheck('smart watch')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Journey))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

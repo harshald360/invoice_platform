@@ -1,0 +1,155 @@
+CRITICAL - 2024-09-02 12:26:26 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:35:14 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:35:15 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:35:15 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:35:15 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:38:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:40:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:40:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:40:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+CRITICAL - 2024-09-02 12:40:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/protectease/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/protectease/index.php(28): require('...')
+#2 {main}
+ERROR - 2024-09-02 12:48:12 --> Error connecting to the database: Access denied for user '****'@'localhost'
+CRITICAL - 2024-09-02 12:48:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+#0 /var/www/html/protectease/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/protectease/app/Models/Master_model.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/protectease/app/Controllers/Home.php(19): App\Models\Master_model->getRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-02 14:50:36 --> Too few arguments to function App\Models\Master_model::updateRecord(), 2 passed in /var/www/html/protectease/app/Controllers/Carts.php on line 91 and exactly 4 expected
+#0 /var/www/html/protectease/app/Controllers/Carts.php(91): App\Models\Master_model->updateRecord()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fRemoveProductFromCart()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-02 15:35:45 --> Undefined variable $fileId
+#0 /var/www/html/protectease/app/Views/journey/carts/index.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(22): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-02 15:38:05 --> Undefined array key "product_invoice"
+#0 /var/www/html/protectease/app/Views/journey/carts/index.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(22): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-09-02 15:57:15 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'protectease.upsiee_products.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2024-09-02 15:57:15 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'protectease.upsiee_products.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/ProtectionPlans.php(53): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\ProtectionPlans->fGetPlansList()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-02 17:40:28 --> syntax error, unexpected token ";"
+#0 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Carts.php(22): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-02 17:52:58 --> syntax error, unexpected token "."
+#0 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Carts.php(22): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-02 17:53:06 --> Unsupported operand types: string * int
+#0 /var/www/html/protectease/system/View/View.php(230): include()
+#1 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(22): view()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-02 22:56:22 --> Undefined variable $toaster
+#0 /var/www/html/protectease/app/Views/common/footer.php(187): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Views/layouts/index.php(85): view()
+#5 /var/www/html/protectease/system/View/View.php(230): include('...')
+#6 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/protectease/system/View/View.php(246): CodeIgniter\View\View->render()
+#8 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#9 /var/www/html/protectease/app/Controllers/Home.php(24): view()
+#10 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#11 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-09-02 22:56:23 --> Undefined variable $toaster
+#0 /var/www/html/protectease/app/Views/common/footer.php(187): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Views/layouts/index.php(85): view()
+#5 /var/www/html/protectease/system/View/View.php(230): include('...')
+#6 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/protectease/system/View/View.php(246): CodeIgniter\View\View->render()
+#8 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#9 /var/www/html/protectease/app/Controllers/Home.php(24): view()
+#10 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#11 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

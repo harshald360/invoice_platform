@@ -1,0 +1,45 @@
+ERROR - 2024-09-25 00:15:12 --> Unknown column 'transaction_id' in 'field list'
+ERROR - 2024-09-25 00:26:20 --> Unknown column 'transaction_id' in 'field list'
+ERROR - 2024-09-25 11:47:30 --> Unknown column 'transaction_id' in 'field list'
+CRITICAL - 2024-09-25 11:49:02 --> The original file is not a valid file.
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Plans.php(49): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Plans->fUploadPlanInvoice()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-25 11:49:44 --> The original file is not a valid file.
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Plans.php(49): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Plans->fUploadPlanInvoice()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-09-25 11:52:50 --> Unknown column 'transaction_id' in 'field list'
+CRITICAL - 2024-09-25 11:52:59 --> The original file is not a valid file.
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Plans.php(49): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Plans->fUploadPlanInvoice()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-09-25 15:08:47 --> Unknown column 'transaction_id' in 'field list'
+CRITICAL - 2024-09-25 09:39:05 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-09-25 09:39:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-09-25 15:22:39 --> The original file is not a valid file.
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Plans.php(49): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Plans->fUploadPlanInvoice()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

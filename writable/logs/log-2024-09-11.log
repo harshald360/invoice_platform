@@ -1,0 +1,160 @@
+ERROR - 2024-09-11 11:32:20 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A00010B:SSL routines::wrong version number
+ERROR - 2024-09-11 11:32:20 --> Email sending failed. <br /><pre>hello: 220 ESMTP smtp.hostinger.com
+</pre>The following SMTP error was encountered: 220 ESMTP smtp.hostinger.com
+<br /><pre>starttls: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre>The following SMTP error was encountered: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Wed, 11 Sep 2024 11:32:09 +0530
+From: &quot;ProtectEase&quot; &lt;info@zeplinix.com&gt;
+Return-Path: &lt;info@zeplinix.com&gt;
+To: sandipd@301io.com
+Subject: =?UTF-8?Q?OTP=20Verification=20for=20Warranty=20Plan=20Confirmation?=
+Reply-To: &lt;info@zeplinix.com&gt;
+User-Agent: CodeIgniter
+X-Sender: info@zeplinix.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66e132619f1246.96479666@zeplinix.com&gt;
+Mime-Version: 1.0
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66e132619f15d9.60163777&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66e132619f15d9.60163777
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear ,
+
+ Thank you for processing your warranty with us!
+
+ To process your warranty plan and complete the process, please use the
+One-Time Password (OTP) provided below :
+
+ Your OTP is: 945369
+
+ Please enter this OTP on our website to process your warranty registration.
+If you did not initiate this request, please ignore this email or contact
+our support team for assistance.
+
+ Thank you for choosing our products!
+
+
+--B_ALT_66e132619f15d9.60163777
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;!DOCTYPE html&gt;=0A            &lt;body style=3D'font-family: Arial, sans-serif=
+;line-height: 1.6;margin: 0;padding: 0;color: #333;''&gt;=0A                &lt;d=
+iv class=3D'container' style=3D'width: 70%;margin: 0 auto;padding: 20px;bac=
+kground-color: #f9f9f9;border: 1px solid #ddd;border-radius: 10px;'&gt;=0A    =
+                &lt;p&gt;Dear ,&lt;/p&gt;=0A=0A                    &lt;p&gt;Thank you for pro=
+cessing your warranty with us!&lt;/p&gt;=0A=0A                    &lt;p&gt;To process y=
+our warranty plan and complete the process, please use the One-Time Passwor=
+d (OTP) provided below :&lt;/p&gt;=0A=0A                    &lt;p class=3D'otp' styl=
+e=3D'font-size: 1.2em;font-weight: bold;color: #007bff;'&gt;Your OTP is: 94536=
+9&lt;/p&gt;=0A=0A                    &lt;p&gt;Please enter this OTP on our website to p=
+rocess your warranty registration. If you did not initiate this request, pl=
+ease ignore this email or contact our support team for assistance.&lt;/p&gt;=0A=
+=0A                    &lt;p&gt;Thank you for choosing our products!&lt;/p&gt;=0A=0A   =
+                 &lt;p class=3D'footer' style=3D'margin-top: 20px;font-size: 0=
+.9em;''&gt;Best regards,&lt;br&gt;ProtectEase&lt;/p&gt;=0A                &lt;/div&gt;=0A       =
+     &lt;/body&gt;=0A            &lt;/html&gt;
+
+--B_ALT_66e132619f15d9.60163777--</pre>
+CRITICAL - 2024-09-11 13:15:53 --> Undefined variable $bProductInvoiceUploadStatus
+#0 /var/www/html/protectease/app/Views/journey/carts/index.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(27): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-11 15:48:22 --> Class "App\Controllers\Master_model" not found
+#0 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fupdateFaqdata()
+#1 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-09-11 15:59:03 --> Undefined array key "title"
+#0 /var/www/html/protectease/app/Views/common/promotion_modal.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Views/home/index.php(3): view()
+#5 /var/www/html/protectease/system/View/View.php(230): include('...')
+#6 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#8 /var/www/html/protectease/app/Controllers/Home.php(25): view()
+#9 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#10 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-09-11 16:19:58 --> Undefined array key 0
+#0 /var/www/html/protectease/app/Views/common/promotion_modal.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Views/home/index.php(3): view()
+#5 /var/www/html/protectease/system/View/View.php(230): include('...')
+#6 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#8 /var/www/html/protectease/app/Controllers/Home.php(25): view()
+#9 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#10 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-09-11 16:27:22 --> syntax error, unexpected token ";", expecting ")"
+#0 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Home.php(25): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-11 17:27:49 --> syntax error, unexpected token "$", expecting ")"
+#0 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Journey.php(41): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fProductEligibilityCheck()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-11 17:34:13 --> Undefined variable $sUserType
+#0 /var/www/html/protectease/app/Views/journey/eligibility.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(41): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fProductEligibilityCheck()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

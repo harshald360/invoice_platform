@@ -1,0 +1,84 @@
+CRITICAL - 2024-11-08 12:57:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 12:57:24 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 12:57:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 12:59:22 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:00:35 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:00:49 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:01:14 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:01:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:10:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:16:48 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:16:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:16:57 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:17:36 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:18:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:18:56 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:20:19 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:25:05 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:25:08 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:25:28 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:27:05 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-11-08 13:28:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}

@@ -1,0 +1,704 @@
+INFO - 2024-07-30 06:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 06:24:17 --> ErrorException: Undefined variable $action
+[Method: GET, Route: boards/masters/config]
+in APPPATH/Views/master/configuration/index.php on line 6.
+ 1 APPPATH/Views/master/configuration/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $action', '/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/configuration/index', [], true)
+ 5 APPPATH/Controllers/Master.php(218): view('master/configuration/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fConfiguration()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 06:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 06:25:13 --> ErrorException: Undefined variable $aProductCategories
+[Method: GET, Route: boards/masters/config]
+in APPPATH/Views/master/configuration/index.php on line 18.
+ 1 APPPATH/Views/master/configuration/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aProductCategories', '/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php', 18)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/configuration/index', [], true)
+ 5 APPPATH/Controllers/Master.php(218): view('master/configuration/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fConfiguration()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 06:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 06:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 07:37:45 --> ParseError: syntax error, unexpected token "->"
+[Method: POST, Route: boards/masters/config/update]
+in APPPATH/Controllers/Master.php on line 250.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/ci/upsiee/app/Controllers/Master.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Master')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Master')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Master', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 07:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 07:38:03 --> Error: Array callback has to contain indices 0 and 1
+[Method: POST, Route: boards/masters/config/update]
+in APPPATH/Controllers/Master.php on line 245.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fUpdateConfigurationDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 07:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 07:39:50 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: boards/masters/config/update]
+in SYSTEMPATH/BaseModel.php on line 1833.
+ 1 SYSTEMPATH/BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(997): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Master.php(249): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fUpdateConfigurationDetails()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 07:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 07:43:35 --> ErrorException: Undefined array key "max_accetpted_month"
+[Method: GET, Route: boards/masters/config]
+in APPPATH/Views/master/configuration/index.php on line 15.
+ 1 APPPATH/Views/master/configuration/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "max_accetpted_month"', '/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/configuration/index', [], true)
+ 5 APPPATH/Controllers/Master.php(219): view('master/configuration/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fConfiguration()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 07:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 07:43:38 --> ErrorException: Undefined array key "max_accetpted_month"
+[Method: GET, Route: boards/masters/config]
+in APPPATH/Views/master/configuration/index.php on line 15.
+ 1 APPPATH/Views/master/configuration/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "max_accetpted_month"', '/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/master/configuration/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/configuration/index', [], true)
+ 5 APPPATH/Controllers/Master.php(219): view('master/configuration/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fConfiguration()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 07:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 08:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 10:45:31 --> ErrorException: Undefined array key "protectionPlans"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 22.
+ 1 APPPATH/Views/products/list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "protectionPlans"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 22)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(78): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 10:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 10:45:37 --> ErrorException: Undefined array key "protectionPlans"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 22.
+ 1 APPPATH/Views/products/list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "protectionPlans"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 22)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(78): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 10:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 10:57:24 --> ParseError: syntax error, unexpected token "endif"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 38.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 3 APPPATH/Controllers/Products.php(78): view('products/list', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 10:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 10:57:30 --> ParseError: syntax error, unexpected token "endif"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 38.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 3 APPPATH/Controllers/Products.php(78): view('products/list', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 10:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 10:57:59 --> ErrorException: Undefined array key "product"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 28.
+ 1 APPPATH/Views/products/list.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 28)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(78): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 10:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 10:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 11:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-30 13:20:03 --> mysqli_sql_exception: Table 'upsiee.products' doesn't exist in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+#6 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-07-30 13:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'upsiee.products' doesn't exist
+[Method: GET, Route: boards/products/sequence]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 2 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-30 13:20:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'upsiee.products' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 4 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-30 13:20:03 --> [Caused by] mysqli_sql_exception: Table 'upsiee.products' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 5 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 13:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-30 13:20:31 --> mysqli_sql_exception: Unknown column 'upsiee_products.category' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+#6 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-07-30 13:20:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'upsiee_products.category' in 'field list'
+[Method: GET, Route: boards/products/sequence]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 2 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-30 13:20:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'upsiee_products.category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 4 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-30 13:20:31 --> [Caused by] mysqli_sql_exception: Unknown column 'upsiee_products.category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `upsiee_products`.`category` AS `product_category`, `upsiee_product_categories_sequence`.`sequence_no`
+FROM `upsiee_products`
+LEFT JOIN `upsiee_product_categories_sequence` ON `upsiee_product_categories_sequence`.`product_category` = `upsiee_products`.`category`
+ORDER BY `product_category` ASC', [], false)
+ 5 APPPATH/Models/ProductCategorySequenceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 13:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 13:29:32 --> ParseError: syntax error, unexpected token "==", expecting ")"
+[Method: GET, Route: boards/products/sequence]
+in APPPATH/Models/ProductCategorySequenceModel.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/ci/upsiee/app/Models/ProductCategorySequenceModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductCategorySequenceModel')
+ 3 APPPATH/Controllers/Products.php(301): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductCategorySequenceModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 13:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 13:29:39 --> Error: Undefined constant "App\Models\orderBy"
+[Method: GET, Route: boards/products/sequence]
+in APPPATH/Models/ProductCategorySequenceModel.php on line 22.
+ 1 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 13:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 13:30:01 --> TypeError: CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in /opt/lampp/htdocs/ci/upsiee/app/Models/ProductCategorySequenceModel.php on line 23
+[Method: GET, Route: boards/products/sequence]
+in SYSTEMPATH/Database/BaseBuilder.php on line 1449.
+ 1 APPPATH/Models/ProductCategorySequenceModel.php(23): CodeIgniter\Database\BaseBuilder->orderBy(null, 'ASC')
+ 2 APPPATH/Controllers/Products.php(301): App\Models\ProductCategorySequenceModel->getUniqueCategorieSequence()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fArrangeProductSequence()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 13:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-30 14:45:06 --> ErrorException: Undefined variable $aPriceTemplateData
+[Method: GET, Route: boards/products/price-templates/new]
+in APPPATH/Views/products/price-templates/price_template.php on line 18.
+ 1 APPPATH/Views/products/price-templates/price_template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aPriceTemplateData', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/price-templates/price_template.php', 18)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/price-templates/price_template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/price-templates/price_template', [], true)
+ 5 APPPATH/Controllers/PriceTemplate.php(69): view('products/price-templates/price_template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PriceTemplate->fNewPriceTemplates()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceTemplate))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-30 14:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-30 14:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

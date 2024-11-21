@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.24",
+        "stripe/stripe-php": "^15.8"
+    }
+
+}

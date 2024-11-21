@@ -1,0 +1,379 @@
+ERROR - 2024-10-28 11:21:53 --> Table 'u932829434_protectease.upsiee_states' doesn't exist
+CRITICAL - 2024-10-28 11:21:53 --> Call to a member function getResultArray() on bool
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Authenticate.php(211): App\Models\Master_model->getRecords()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Authenticate->FCreateCustomer()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-10-28 11:28:51 --> Table 'u932829434_protectease.upsiee_states' doesn't exist
+CRITICAL - 2024-10-28 11:28:51 --> Call to a member function getResultArray() on bool
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/app/Controllers/Customers/Authenticate.php(211): App\Models\Master_model->getRecords()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(928): App\Controllers\Customers\Authenticate->FCreateCustomer()
+#2 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-28 08:12:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+CRITICAL - 2024-10-28 08:12:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}
+ERROR - 2024-10-28 17:41:46 --> Email sending failed. 220 ESMTP smtp.hostinger.com
+<br /><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>from: </pre>The following SMTP error was encountered: <br /><pre>quit: 250 2.1.0 Ok
+</pre>The following SMTP error was encountered: 250 2.1.0 Ok
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Mon, 28 Oct 2024 17:41:36 +0530
+From: &quot;ProtectEase&quot; &lt;info@zeplinix.com&gt;
+Return-Path: &lt;info@zeplinix.com&gt;
+To: manasim@301io.com
+Subject: =?UTF-8?Q?Your=20Invoice=20is=20Being=20Verified?=
+Reply-To: &lt;info@zeplinix.com&gt;
+User-Agent: CodeIgniter
+X-Sender: info@zeplinix.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;671f7f78c290b3.89063708@zeplinix.com&gt;
+Mime-Version: 1.0
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_671f7f78c291c8.48100062&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_671f7f78c291c8.48100062
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your Invoice is Being Verified...
+
+
+
+
+
+ Hi Manasi ,
+
+
+ We have received your invoice for the Refrigerator warranty, and it is
+currently under review.
+
+
+
+
+
+
+
+
+
+ Warranty Details:
+
+
+
+ Warranty No.: PE20241028D1FF0007
+ Transaction ID: ch_3QErdbK94y0VOhhR0xXDZKDw
+
+
+
+
+
+
+
+
+
+
+
+ We will notify you once the verification is complete. This process usually
+takes 1-2 business days.
+
+
+
+
+
+
+
+
+ Best regards,
+
+
+
+
+
+
+
+
+ Protectease Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 502 W 7th ST, STE 100
+
+ Erie,PA 165025
+
+ Email: info@301io.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ www.proteactease.com
+
+
+--B_ALT_671f7f78c291c8.48100062
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09  =0A    &lt;table width=3D&quot;60=
+0&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; style=
+=3D&quot;=0A        max-width: 600px;=0A        border-collapse: collapse;=0A   =
+     border-radius: 32px;=0A        margin-top: 20px;=0A        -webkit-box=
+-shadow: 0px 0px 5px 0px rgba(184, 217, 255, 1);=0A        -moz-box-shadow:=
+ 0px 0px 5px 0px rgba(184, 217, 255, 1);=0A        box-shadow: 0px 0px 5px =
+0px rgba(184, 217, 255, 1);=0A      &quot; bgcolor=3D&quot;#F5F9FE&quot; class=3D&quot;wrapper&quot;=
+&gt;=0A      &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A        &lt;td style=
+=3D&quot;=0A            text-align: center;=0A            font-family: Inter;=0A=
+            font-weight: normal;=0A            font-size: 16px;=0A         =
+   line-height: 25px;=0A            padding-right: 10px;=0A            padd=
+ing-left: 10px;=0A            padding-top: 20px;=0A          &quot;&gt;=0A         =
+ &lt;img style=3D&quot;width: 200px&quot; src=3D&quot;https://digisoftic.in/protectease/publi=
+c/images/ProtectEaseLogo.png&quot;&gt;=0A        &lt;/td&gt;=0A      &lt;/tr&gt;=0A      &lt;tr al=
+ign=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A        &lt;td style=3D&quot;=0A            text-a=
+lign: center;=0A            font-family: Inter;=0A            font-weight: =
+normal;=0A            font-size: 16px;=0A            line-height: 25px;=0A =
+           padding-right: 25px;=0A            padding-left: 25px;=0A       =
+   &quot;&gt;=0A          &lt;img style=3D&quot;width: 600px&quot; src=3D&quot;https://digisoftic.in/=
+protectease/v2/public/images/email/verification_banner.png&quot;&gt;=0A        &lt;/td=
+&gt;=0A      &lt;/tr&gt;=0A=0A      &lt;tr align=3D&quot;center&quot;&gt;&lt;/tr&gt;=0A      &lt;tr align=3D&quot;=
+&quot; valign=3D&quot;top&quot;&gt;=0A        &lt;td&gt;=0A          &lt;/td&gt;&lt;/tr&gt;&lt;tr align=3D&quot;&quot; valig=
+n=3D&quot;top&quot;&gt;=0A            &lt;td style=3D&quot;=0A                font-family: Inter=
+;=0A                font-weight: normal;=0A                font-size: 16px;=
+=0A                line-height: 25px;=0A                padding-top: 25px;=
+=0A                padding-bottom: 25px;=0A                padding-right: 2=
+5px;padding-left: 25px;=0A              &quot;&gt;=0A            &lt;table width=3D&quot;10=
+0%&quot; border=3D&quot;0&quot; align=3D&quot;left&quot; cellpadding=3D&quot;10&quot; cellspacing=3D&quot;0&quot; style=
+=3D&quot;max-width: 600px; border-collapse: collapse;background-color: #E5F1FF;b=
+order-radius: 20px;&quot; class=3D&quot;wrapper&quot;&gt;=0A                &lt;tbody&gt;&lt;tr align=
+=3D&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                  &lt;td style=3D&quot;width: 220px&quot;&gt;=
+=0A                    &lt;table width=3D&quot;100%&quot; border=3D&quot;0&quot; align=3D&quot;left&quot; ce=
+llpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; style=3D&quot; border-collapse: collapse;paddi=
+ng: 20px &quot; class=3D&quot;wrapper&quot;&gt;=0A                        &lt;tbody style=3D&quot;pad=
+ding: 20px&quot;&gt;=0A                            &lt;tr align=3D&quot;left&quot; valign=3D&quot;top=
+&quot;&gt;=0A                            =0A                            &lt;td style=
+=3D&quot;=0A                                text-align: left;=0A                =
+                font-family: Roboto Slab;=0A                               =
+ gap: 10px;=0A                                color: #0968AD;font-size: 36p=
+x;padding: 20px;font-weight: 700;line-height: 40px;&quot;&gt;=0A                   =
+             Your Invoice is Being  &lt;br&gt; Verified...=0A                    =
+        &lt;/td&gt;=0A                          &lt;/tr&gt;=0A                         =
+   &lt;tr align=3D&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                            =0A    =
+                        &lt;td style=3D&quot;=0A                                tex=
+t-align: left;=0A                                font-family: Inter;=0A    =
+                            font-weight: normal;=0A                        =
+        font-size: 16px;=0A                                gap: 10px;=0A   =
+                             padding: 20px;=0A                             =
+   color: #6C6B6B;=0A                                &quot;&gt;=0A                 =
+                  Hi Manasi ,=0A                                   &lt;/td&gt;&lt;/t=
+r&gt;&lt;tr&gt;=0A                                    &lt;td style=3D&quot;padding-left: 20p=
+x;padding-right:20px;line-height: 20px; font-family: Inter; color: #6C6B6B;=
+&quot;&gt;=0A                                      We have received your invoice fo=
+r the Refrigerator warranty, and it is currently under review.=0A          =
+                          &lt;/td&gt;=0A                                    =0A  =
+                                 &lt;/tr&gt;=0A                            =0A   =
+                       =0A=0A                          &lt;tr align=3D&quot;left&quot; v=
+align=3D&quot;top&quot;&gt;=0A                            =0A                           =
+ &lt;td style=3D&quot;=0A                                text-align: left;=0A      =
+                          font-family: Inter;=0A                           =
+     font-weight: 700;=0A                                font-size: 20px;=
+=0A                                gap: 10px;=0A                           =
+     padding-left: 20px;padding-right:20px;=0A                             =
+   padding-top: 20px;=0A                                color: #0968AD;=0A=
+=0A                                &quot;&gt;=0A                                  W=
+arranty Details:=0A                                   &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A    =
+                                &lt;td style=3D&quot;padding-left: 20px;padding-rig=
+ht:20px;line-height: 20px; font-family: Inter;&quot;&gt;=0A                        =
+              &lt;ul&gt;=0A                                        &lt;li style=3D&quot;p=
+adding-top: 2px;color: #6C6B6B;&quot;&gt;Warranty No.: PE20241028D1FF0007&lt;/li&gt;=0A  =
+                                      &lt;li style=3D&quot;padding-top: 2px;color: =
+#6C6B6B;&quot;&gt;Transaction ID: ch_3QErdbK94y0VOhhR0xXDZKDw&lt;/li&gt;=0A              =
+                        &lt;/ul&gt;=0A                                    &lt;/td&gt;=
+=0A                                    =0A                                 =
+  &lt;/tr&gt;=0A                            =0A                          =0A     =
+                     &lt;tr align=3D&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                 =
+           =0A                            &lt;td style=3D&quot;=0A                 =
+               text-align: left;=0A                                font-fam=
+ily: Inter;=0A                                font-weight: normal;=0A      =
+                          font-size: 16px;=0A                              =
+  gap: 10px;=0A                                padding-left: 20px;=0A      =
+                          padding-right: 20px;=0A                          =
+      color: #6C6B6B;=0A                                &quot;&gt;=0A              =
+                     &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                                    &lt;=
+td style=3D&quot;padding-left: 20px;padding-right:20px;line-height: 20px; font-f=
+amily: Inter;color: #6C6B6B;&quot;&gt;=0A                                      We w=
+ill notify you once the verification is complete. This process usually take=
+s 1-2 business days.=0A                                    &lt;/td&gt;=0A        =
+                           &lt;/tr&gt;=0A                            =0A         =
+                 =0A                          &lt;tr align=3D&quot;center&quot; valign=
+=3D&quot;top&quot;&gt;=0A                            &lt;td style=3D&quot;=0A                   =
+             text-align: center;=0A                                font-fam=
+ily:Inter;=0A                                font-weight: normal;=0A       =
+                         font-size: 12px;=0A                               =
+ line-height: 16.5pt;=0A                                padding-left: 20px;=
+=0A                                padding-right: 20px;=0A                 =
+               padding-top: 20px;=0A                                color: =
+#6C6B6B;=0A                              &quot;&gt;=0A                             =
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                                &lt;td style=3D&quot;padding-left:=
+ 20px;padding-right:20px;line-height: 20px;color: #6C6B6B;&quot;&gt;=0A            =
+                        Best regards,=0A                                &lt;/t=
+d&gt;=0A                               &lt;/tr&gt;=0A                            =0A=
+                          =0A                          &lt;tr align=3D&quot;center&quot;=
+ valign=3D&quot;top&quot;&gt;=0A                            &lt;td style=3D&quot;=0A            =
+                    text-align: center;=0A                                f=
+ont-family: Inter;=0A                                font-weight: normal;=
+=0A                                font-size: 12px;=0A                     =
+           line-height: 16.5pt;=0A                                padding-l=
+eft: 20px;=0A                                padding-right: 20px;=0A       =
+                         color: #6C6B6B;=0A                              &quot;&gt;=
+=0A                             &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                          =
+      &lt;td style=3D&quot;padding-left: 20px;padding-right:20px;line-height: 20px;=
+padding-bottom: 20px;color: #6C6B6B;&quot;&gt;=0A                                  =
+ Protectease Team=0A                                &lt;/td&gt;=0A               =
+                &lt;/tr&gt;=0A                            =0A                    =
+      =0A                        &lt;/tbody&gt;&lt;/table&gt;=0A                  &lt;/td&gt;=
+=0A                &lt;/tr&gt;=0A              &lt;/tbody&gt;&lt;/table&gt;=0A             =
+=0A            &lt;/td&gt;=0A          &lt;/tr&gt;=0A          =0A        =0A      =0A=
+=0A      =0A=0A     =0A=0A      =0A      &lt;tr align=3D&quot;center&quot; valign=3D&quot;top=
+&quot;&gt;=0A        &lt;td style=3D&quot;=0A            padding-top: 10px;=0A            p=
+adding-bottom: 10px;=0A            padding-left: 20px;=0A            paddin=
+g-right: 20px;=0A            background: linear-gradient(88.39deg, #0968AD =
+-3.16%, #58ACE9 107.75%);=0A            border-bottom-left-radius: 32px;=0A=
+            border-bottom-right-radius: 32px;=0A=0A          &quot;&gt;=0A         =
+ &lt;table width=3D&quot;100%&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cell=
+spacing=3D&quot;0&quot; style=3D&quot;max-width: 600px; border-collapse: collapse&quot; class=
+=3D&quot;wrapper&quot;&gt;=0A            &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A =
+             &lt;td style=3D&quot;width: 220px&quot;&gt;=0A                &lt;table width=3D&quot;=
+100%&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; sty=
+le=3D&quot;max-width: 220px; border-collapse: collapse&quot; class=3D&quot;wrapper&quot;&gt;=0A   =
+               &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A              =
+      &lt;td&gt;=0A                        &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                     =
+       &lt;td style=3D&quot;width: 10%;position: relative;&quot;&gt;=0A                    =
+          &lt;img src=3D&quot;https://digisoftic.in/protectease/v2/public/images/em=
+ail/location.png&quot; alt=3D&quot;&quot; height=3D&quot;20&quot; style=3D&quot;position: absolute;top: 0=
+; padding-top:10px ;&quot;&gt;=0A                            &lt;/td&gt;=0A              =
+              &lt;td style=3D&quot;padding-left: 10px;&quot;&gt;=0A                        =
+        &lt;p style=3D&quot;margin: 0px ;margin-top: 10px;color: white;font-family:=
+ Inter;&quot;&gt;502 W 7th ST, STE 100 &lt;/p&gt;=0A                                &lt;p st=
+yle=3D&quot;margin: 0px ;margin-top: 8px;color: white;font-family: Inter;&quot;&gt;=0A  =
+                                  Erie,PA 165025=0A                        =
+        &lt;/p&gt;=0A                                &lt;p style=3D&quot;margin: 0px ;mar=
+gin-top: 8px;color: white;font-family: Inter;&quot;&gt;&lt;a href=3D&quot;mailto:Email: inf=
+o@301io.com&quot; style=3D&quot;color: white;&quot;&gt;Email: info@301io.com&lt;/a&gt;&lt;/p&gt;=0A=0A   =
+                     &lt;/td&gt;=0A                    &lt;/tr&gt;=0A                  =
+  =0A                  =0A                &lt;/tbody&gt;&lt;/table&gt;=0A              =
+&lt;/td&gt;=0A              &lt;td style=3D&quot;width: 220px;padding-top: 10px;&quot;&gt;=0A    =
+            &lt;table width=3D&quot;100%&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cellsp=
+acing=3D&quot;0&quot; style=3D&quot;max-width: 220px; border-collapse: collapse&quot; class=3D&quot;=
+wrapper&quot;&gt;=0A                  &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=
+=0A                    =0A                    &lt;td style=3D&quot;=0A             =
+           text-align: center;=0A                        font-family: Inter=
+;=0A                        font-weight: normal;=0A                        =
+font-size: 16px;=0A                        gap: 10px;=0A                   =
+     margin-top: 10px;=0A                      &quot;&gt;=0A                    &lt;a =
+href=3D&quot;&quot;&gt;=0A                      &lt;img src=3D&quot;https://digisoftic.in/protec=
+tease/v2/public/images/email/twitter.png&quot; width=3D&quot;20&quot; height=3D&quot;20&quot; style=
+=3D&quot;border: 1px solid white; padding: 5px;border-radius: 7px;&quot;&gt;=0A         =
+           &lt;/a&gt;=0A                    &lt;a href=3D&quot;&quot;&gt;=0A                     =
+ &lt;img src=3D&quot;https://digisoftic.in/protectease/v2/public/images/email/fb.pn=
+g&quot; width=3D&quot;20&quot; height=3D&quot;20&quot; style=3D&quot;border: 1px solid white;padding: 5px=
+;border-radius: 7px;&quot;&gt;=0A                    &lt;/a&gt;=0A                    &lt;a =
+href=3D&quot;&quot;&gt;=0A                      &lt;img src=3D&quot;https://digisoftic.in/protec=
+tease/v2/public/images/email/insta.png&quot; width=3D&quot;20&quot; height=3D&quot;20&quot; style=3D=
+&quot;border: 1px solid white;padding: 5px;border-radius: 7px;&quot;&gt;=0A             =
+       &lt;/a&gt;=0A                    &lt;/td&gt;=0A                  &lt;/tr&gt;=0A       =
+           &lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A                    &lt;td s=
+tyle=3D&quot;=0A                        text-align: center;=0A                  =
+      font-family: Inter;=0A                        font-weight: normal;=0A=
+                        font-size: 12px;=0A                        line-hei=
+ght: 16.5pt;=0A                        padding-top: 10px;=0A               =
+         padding-bottom: 10px;=0A                      &quot;&gt;=0A               =
+      &lt;a href=3D&quot;www.proteactease.com&quot; style=3D&quot;color: white;font-size: 15p=
+x;text-decoration: underline;&quot;&gt;www.proteactease.com&lt;/a&gt;=0A                 =
+   &lt;/td&gt;=0A                  &lt;/tr&gt;=0A                &lt;/tbody&gt;&lt;/table&gt;=0A   =
+           &lt;/td&gt;=0A            &lt;/tr&gt;=0A          &lt;/tbody&gt;&lt;/table&gt;=0A       =
+ &lt;/td&gt;=0A      &lt;/tr&gt;=0A      =0A    &lt;/tbody&gt;&lt;/table&gt;
+
+--B_ALT_671f7f78c291c8.48100062--</pre>
+CRITICAL - 2024-10-28 12:17:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+#0 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/system/Boot.php(56): CodeIgniter\Boot::initializeKint()
+#1 /home/u932829434/domains/digisoftic.in/public_html/protectease/v2/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#2 {main}

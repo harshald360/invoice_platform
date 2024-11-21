@@ -1,0 +1,248 @@
+CRITICAL - 2024-09-17 11:47:58 --> Undefined variable $carts
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(55): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 13:17:03 --> syntax error, unexpected token "++", expecting variable or "{" or "$"
+#0 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-17 13:18:48 --> Undefined array key "term"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 13:54:47 --> syntax error, unexpected token ";", expecting ")"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 /var/www/html/protectease/app/Controllers/Carts.php(17): CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(900): App\Controllers\Carts->__construct()
+#4 /var/www/html/protectease/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-17 13:55:22 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:56:28 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:57:01 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:57:03 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:57:03 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:57:03 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 13:57:04 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 14:07:37 --> You must set the database table to be used with your query.
+#0 /var/www/html/protectease/system/Model.php(602): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/protectease/system/Model.php(761): CodeIgniter\Model->builder()
+#2 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Model->__get()
+#3 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#4 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#5 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-17 14:08:31 --> syntax error, unexpected token "}"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 /var/www/html/protectease/app/Controllers/Carts.php(17): CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(900): App\Controllers\Carts->__construct()
+#4 /var/www/html/protectease/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-17 14:08:39 --> Undefined variable $carts
+#0 /var/www/html/protectease/app/Models/Master_model.php(399): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/app/Controllers/Carts.php(32): App\Models\Master_model->getCartRecords()
+#2 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#3 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-09-17 14:15:11 --> Undefined array key "plan_msrp"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 14:16:30 --> Undefined array key "carts"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 14:19:16 --> Undefined array key "carts"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 14:19:40 --> Undefined array key "carts"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 14:19:54 --> Undefined array key "product_category"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(56): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 14:27:36 --> Undefined variable $aProductPlans
+#0 /var/www/html/protectease/app/Views/journey/checkout/plan_selection_modal.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Views/journey/checkout/index.php(325): view()
+#5 /var/www/html/protectease/system/View/View.php(230): include('...')
+#6 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#8 /var/www/html/protectease/app/Controllers/Carts.php(34): view()
+#9 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#10 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-09-17 17:00:18 --> Undefined variable $plan
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(389): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(40): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 17:02:09 --> Undefined variable $plan
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(391): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(40): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 17:02:37 --> Undefined variable $plan
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(393): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(40): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fPlanCartCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-17 20:30:03 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 /var/www/html/protectease/app/Models/Master_model.php(100): count()
+#1 /var/www/html/protectease/app/Controllers/Carts.php(138): App\Models\Master_model->getRecords()
+#2 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->fUpdateCartProductPlan()
+#3 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

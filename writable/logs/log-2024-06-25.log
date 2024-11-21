@@ -1,0 +1,33 @@
+CRITICAL - 2024-06-25 10:43:21 --> Error: Cannot call constructor
+[Method: GET, Route: boards]
+in APPPATH/Controllers/Authenticate.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Authenticate->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-25 10:44:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "authentication/sign-in.php"
+[Method: GET, Route: boards]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('authentication/sign-in.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('authentication/sign-in', [], true)
+ 3 APPPATH/Controllers/Authenticate.php(14): view('authentication/sign-in')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fSignUp()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-25 12:51:27 --> ParseError: syntax error, unexpected variable "$data", expecting "function" or "const"
+[Method: GET, Route: boards]
+in APPPATH/Controllers/Authenticate.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Authenticate')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Authenticate')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Authenticate', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

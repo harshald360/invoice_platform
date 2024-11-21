@@ -1,0 +1,718 @@
+INFO - 2024-08-20 05:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 05:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 06:10:38 --> ErrorException: Undefined variable $aProductCategories
+[Method: GET, Route: boards/masters/email/templates/new]
+in APPPATH/Views/master/email_templates/templates.php on line 18.
+ 1 APPPATH/Views/master/email_templates/templates.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aProductCategories', '/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/templates.php', 18)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/templates.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/templates', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(30): view('master/email_templates/templates', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fNewEmailTemplates()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 06:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 06:42:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "masters/email_templates/validation.php"
+[Method: GET, Route: boards/masters/email/templates/new]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masters/email_templates/validation.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('masters/email_templates/validation', [], true)
+ 3 APPPATH/Views/master/email_templates/templates.php(50): view('masters/email_templates/validation')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/templates.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/templates', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(30): view('master/email_templates/templates', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fNewEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 06:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 06:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 07:23:15 --> Error: Object of class App\Controllers\EmailTemplates could not be converted to string
+[Method: POST, Route: boards/masters/email/templates/add]
+in APPPATH/Controllers/EmailTemplates.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fAddEmailTemplates()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 07:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-20 07:32:47 --> mysqli_sql_exception: Unknown column 'template_order_status' in 'field list' in /opt/lampp/htdocs/ci/protectEase/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/protectEase/system/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `up...', 0)
+#1 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 /opt/lampp/htdocs/ci/protectEase/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/ci/protectEase/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/ci/protectEase/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/ci/protectEase/app/Controllers/EmailTemplates.php(47): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(933): App\Controllers\EmailTemplates->fAddEmailTemplates()
+#9 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+#10 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/protectEase/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/protectEase/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/protectEase/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-08-20 07:32:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'template_order_status' in 'field list'
+[Method: POST, Route: boards/masters/email/templates/add]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (:template_name:, :template_order_status:, :template_subject:, :template_body:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(47): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fAddEmailTemplates()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-20 07:32:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'template_order_status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (\'asdasd\', \'4\', \'asdasda\', \'<p>sdasdasd</p>\', 0, \'2024-08-20 07:32:47\', \'2024-08-20 07:32:47\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (\'asdasd\', \'4\', \'asdasda\', \'<p>sdasdasd</p>\', 0, \'2024-08-20 07:32:47\', \'2024-08-20 07:32:47\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (:template_name:, :template_order_status:, :template_subject:, :template_body:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(47): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fAddEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-20 07:32:47 --> [Caused by] mysqli_sql_exception: Unknown column 'template_order_status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (\'asdasd\', \'4\', \'asdasda\', \'<p>sdasdasd</p>\', 0, \'2024-08-20 07:32:47\', \'2024-08-20 07:32:47\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (\'asdasd\', \'4\', \'asdasda\', \'<p>sdasdasd</p>\', 0, \'2024-08-20 07:32:47\', \'2024-08-20 07:32:47\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (\'asdasd\', \'4\', \'asdasda\', \'<p>sdasdasd</p>\', 0, \'2024-08-20 07:32:47\', \'2024-08-20 07:32:47\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_email_templates` (`template_name`, `template_order_status`, `template_subject`, `template_body`, `is_active`, `created_at`, `updated_at`) VALUES (:template_name:, :template_order_status:, :template_subject:, :template_body:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/EmailTemplates.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fAddEmailTemplates()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 07:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 07:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 08:04:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "masters/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masters/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('masters/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/master/email_templates/index.php(22): view('masters/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('master/email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 08:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 08:04:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "masters/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masters/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('masters/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/master/email_templates/index.php(22): view('masters/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('master/email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 08:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 08:05:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "masters/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masters/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('masters/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/master/email_templates/index.php(22): view('masters/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('master/email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 08:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 08:06:14 --> ErrorException: Undefined variable $order
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/master/email_templates/list.php on line 21.
+ 1 APPPATH/Views/master/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', '/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('master/email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 08:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 08:07:06 --> ErrorException: Undefined array key "order_no"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/master/email_templates/list.php on line 24.
+ 1 APPPATH/Views/master/email_templates/list.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_no"', '/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/list.php', 24)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/master/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('master/email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 08:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 08:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:48:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/index.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/index', [], true)
+ 3 APPPATH/Controllers/EmailTemplates.php(21): view('master/email_templates/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:50:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master/email_templates/filter_templates.php"
+[Method: GET, Route: boards/masters/email/templates]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/email_templates/filter_templates.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('master/email_templates/filter_templates', [], true)
+ 3 APPPATH/Views/email_templates/index.php(22): view('master/email_templates/filter_templates')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+ 7 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:51:12 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:52:18 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:52:19 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:52:20 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:52:20 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:53:33 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 119.
+ 1 APPPATH/Views/common/board/sidebar.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 119)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:54:17 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 119.
+ 1 APPPATH/Views/common/board/sidebar.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 119)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:54:18 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 119.
+ 1 APPPATH/Views/common/board/sidebar.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 119)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 12:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:59:37 --> ErrorException: Undefined array key "EMAIL_TYPE"
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 117.
+ 1 APPPATH/Views/common/board/sidebar.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "EMAIL_TYPE"', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 117)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 12:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 12:59:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: boards/masters/email/templates]
+in APPPATH/Views/common/board/sidebar.php on line 118.
+ 1 APPPATH/Views/common/board/sidebar.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php', 118)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/common/board/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 5 APPPATH/Views/layouts/board/index.php(36): view('common/board/sidebar')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/layouts/board/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 9 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/index', [], true)
+10 APPPATH/Controllers/EmailTemplates.php(21): view('email_templates/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fEmailTemplates()
+12 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+13 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:28:44 --> ErrorException: Undefined array key "template_order_status"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/email_templates/list.php on line 21.
+ 1 APPPATH/Views/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "template_order_status"', '/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:30:32 --> ErrorException: Undefined array key "template_order_status"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/email_templates/list.php on line 21.
+ 1 APPPATH/Views/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "template_order_status"', '/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:30:55 --> ErrorException: Undefined array key "template_order_status"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/email_templates/list.php on line 21.
+ 1 APPPATH/Views/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "template_order_status"', '/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:31:08 --> ErrorException: Undefined array key "template_order_status"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/email_templates/list.php on line 21.
+ 1 APPPATH/Views/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "template_order_status"', '/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:31:35 --> ErrorException: Undefined array key "template_order_status"
+[Method: GET, Route: boards/masters/email/templates/getTemplateList/1]
+in APPPATH/Views/email_templates/list.php on line 21.
+ 1 APPPATH/Views/email_templates/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "template_order_status"', '/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/email_templates/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('email_templates/list', [], true)
+ 5 APPPATH/Controllers/EmailTemplates.php(60): view('email_templates/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-20 13:32:58 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: boards/email/plan_approved/templates/getTemplateList/1]
+in APPPATH/Controllers/EmailTemplates.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmailTemplates->fGetEmailTemplateList('plan_approved')
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailTemplates))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-20 13:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 13:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1093 @@
+INFO - 2024-07-12 06:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 07:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 08:11:50 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 21.
+ 1 APPPATH/Views/products/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(53): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 08:12:46 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 21.
+ 1 APPPATH/Views/products/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(53): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 08:19:22 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 21.
+ 1 APPPATH/Views/products/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(55): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 08:19:43 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: boards/products/getProductList/1]
+in APPPATH/Views/products/list.php on line 21.
+ 1 APPPATH/Views/products/list.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/list', [], true)
+ 5 APPPATH/Controllers/Products.php(55): view('products/list', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fGetProductList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 08:40:48 --> mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(903): App\Controllers\Products->__construct()
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 08:40:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+[Method: GET, Route: boards/products/new]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:40:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 8 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 9 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:40:48 --> [Caused by] mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 9 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+10 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 08:41:23 --> mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(903): App\Controllers\Products->__construct()
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 08:41:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+[Method: GET, Route: boards/products]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:41:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 8 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 9 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:41:23 --> [Caused by] mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 9 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+10 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 08:41:26 --> mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(903): App\Controllers\Products->__construct()
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 08:41:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+[Method: GET, Route: boards/products/new]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:41:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 8 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 9 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:41:26 --> [Caused by] mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 9 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+10 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 08:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 08:43:31 --> mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(903): App\Controllers\Products->__construct()
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 08:43:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+[Method: GET, Route: boards/products/new]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:43:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 8 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+ 9 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 08:43:31 --> [Caused by] mysqli_sql_exception: Unknown column 'product_sub_category' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `product_sub_category`
+FROM `upsiee_products`', [], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(16): App\Models\ProductsModel->getUniqueSubCategories()
+ 9 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Products->__construct()
+10 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 08:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 10:15:32 --> mysqli_sql_exception: Unknown column 'product_brand' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `up...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/ci/upsiee/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(97): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->fAddProducts()
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 10:15:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_brand' in 'field list'
+[Method: POST, Route: boards/products/add]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (:product_category:, :product_subcategory:, :product_brand:, :product_name:, :starting_price:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Products.php(97): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fAddProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:15:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (\'Major Appliances\', \'Dishwasher\', \'Whirlpool\', \'Power Clean Pro Dishwasher\', \'32\', 0, \'2024-07-12 10:15:32\', \'2024-07-12 10:15:32\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (\'Major Appliances\', \'Dishwasher\', \'Whirlpool\', \'Power Clean Pro Dishwasher\', \'32\', 0, \'2024-07-12 10:15:32\', \'2024-07-12 10:15:32\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (:product_category:, :product_subcategory:, :product_brand:, :product_name:, :starting_price:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Products.php(97): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fAddProducts()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:15:32 --> [Caused by] mysqli_sql_exception: Unknown column 'product_brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (\'Major Appliances\', \'Dishwasher\', \'Whirlpool\', \'Power Clean Pro Dishwasher\', \'32\', 0, \'2024-07-12 10:15:32\', \'2024-07-12 10:15:32\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (\'Major Appliances\', \'Dishwasher\', \'Whirlpool\', \'Power Clean Pro Dishwasher\', \'32\', 0, \'2024-07-12 10:15:32\', \'2024-07-12 10:15:32\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (\'Major Appliances\', \'Dishwasher\', \'Whirlpool\', \'Power Clean Pro Dishwasher\', \'32\', 0, \'2024-07-12 10:15:32\', \'2024-07-12 10:15:32\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_products` (`product_category`, `product_subcategory`, `product_brand`, `product_name`, `starting_price`, `is_active`, `created_at`, `updated_at`) VALUES (:product_category:, :product_subcategory:, :product_brand:, :product_name:, :starting_price:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Products.php(97): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fAddProducts()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 10:29:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "TV & Home Theater"
+[Method: GET, Route: boards/products/getSubCategoriesByCategory/TV%20&%20Home%20Theater]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 10:31:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "TV & Home Theater"
+[Method: GET, Route: boards/products/getSubCategoriesByCategory/TV%20&%20Home%20Theater]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 10:31:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "TV & Home Theater"
+[Method: GET, Route: boards/products/getSubCategoriesByCategory/TV%20&%20Home%20Theater]
+in SYSTEMPATH/Router/Router.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('boards/products/getSubCategoriesByCategory/TV & Home Theater')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 10:36:31 --> ErrorException: Undefined variable $aProductCategories
+[Method: GET, Route: boards/products/edit/3]
+in APPPATH/Views/products/products.php on line 18.
+ 1 APPPATH/Views/products/products.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aProductCategories', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php', 18)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/products', [], true)
+ 5 APPPATH/Controllers/Products.php(138): view('products/products', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fEditProductsDetails('3')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 10:42:45 --> mysqli_sql_exception: Unknown column 'brand' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 10:42:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+[Method: GET, Route: boards/products/getBrandsBySubCategory/Audio%20Receivers]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:42:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:42:45 --> [Caused by] mysqli_sql_exception: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 10:43:26 --> mysqli_sql_exception: Unknown column 'brand' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 10:43:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+[Method: GET, Route: boards/products/getBrandsBySubCategory/Audio%20Receivers]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:43:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:43:26 --> [Caused by] mysqli_sql_exception: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-12 10:45:17 --> mysqli_sql_exception: Unknown column 'brand' in 'field list' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#10 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-12 10:45:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+[Method: GET, Route: boards/products/getBrandsBySubCategory/Audio%20Receivers]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:45:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-12 10:45:17 --> [Caused by] mysqli_sql_exception: Unknown column 'brand' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = \'Audio Receivers\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `brand`
+FROM `upsiee_products`
+WHERE `product_subcategory` = :product_subcategory:', [...], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/ProductsModel.php(96): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Products.php(80): App\Models\ProductsModel->getUniqueBrandsBySubCategory('Audio Receivers')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->getBrandsBySubCategory('Audio Receivers')
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 10:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 12:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 13:51:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "products/product_categories.php"
+[Method: GET, Route: boards/products]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products/product_categories.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/product_categories', [], true)
+ 3 APPPATH/Views/products/index.php(50): view('products/product_categories')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/index', [], true)
+ 7 APPPATH/Controllers/Products.php(23): view('products/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 13:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 13:59:08 --> ErrorException: Undefined variable $aProductCategories
+[Method: GET, Route: boards/products/edit/1]
+in APPPATH/Views/products/products.php on line 18.
+ 1 APPPATH/Views/products/products.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aProductCategories', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php', 18)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/products', [], true)
+ 5 APPPATH/Controllers/Products.php(164): view('products/products', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fEditProductsDetails('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 13:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 14:27:41 --> ErrorException: Undefined array key "product_sub_category"
+[Method: GET, Route: boards/products/edit/1]
+in APPPATH/Views/products/products.php on line 31.
+ 1 APPPATH/Views/products/products.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_sub_category"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php', 31)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/products', [], true)
+ 5 APPPATH/Controllers/Products.php(167): view('products/products', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fEditProductsDetails('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 14:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 14:27:55 --> ErrorException: Undefined array key "product_sub_category"
+[Method: GET, Route: boards/products/edit/1]
+in APPPATH/Views/products/products.php on line 31.
+ 1 APPPATH/Views/products/products.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_sub_category"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php', 31)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/products', [], true)
+ 5 APPPATH/Controllers/Products.php(167): view('products/products', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fEditProductsDetails('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 14:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 14:28:06 --> ErrorException: Undefined array key "brand"
+[Method: GET, Route: boards/products/edit/1]
+in APPPATH/Views/products/products.php on line 46.
+ 1 APPPATH/Views/products/products.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand"', '/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/products/products.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('products/products', [], true)
+ 5 APPPATH/Controllers/Products.php(167): view('products/products', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->fEditProductsDetails('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-12 14:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 14:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

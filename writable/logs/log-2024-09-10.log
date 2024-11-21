@@ -1,0 +1,401 @@
+CRITICAL - 2024-09-10 11:17:29 --> Class "App\Controllers\IOFactory" not found
+#0 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Products->fImportProductExcel()
+#1 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-09-10 12:10:29 --> Invalid file: master/faq_info/filter_faq_list.php
+#0 /var/www/html/protectease/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Views/master/faqs/index.php(34): view()
+#3 /var/www/html/protectease/system/View/View.php(230): include('...')
+#4 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#6 /var/www/html/protectease/app/Controllers/Master.php(726): view()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->manage_faq()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:11:36 --> Table 'protectease.upsiee_faq_information' doesn't exist
+CRITICAL - 2024-09-10 12:11:36 --> Table 'protectease.upsiee_faq_information' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(743): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->getfaqinfodata()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:11:42 --> Table 'protectease.upsiee_faq_information' doesn't exist
+CRITICAL - 2024-09-10 12:11:42 --> Table 'protectease.upsiee_faq_information' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(743): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->getfaqinfodata()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:12:06 --> Table 'protectease.upsiee_faq_information' doesn't exist
+CRITICAL - 2024-09-10 12:12:06 --> Table 'protectease.upsiee_faq_information' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(743): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->getfaqinfodata()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:12:21 --> Table 'protectease.upsiee_faq_information' doesn't exist
+CRITICAL - 2024-09-10 12:12:21 --> Table 'protectease.upsiee_faq_information' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(743): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->getfaqinfodata()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:14:37 --> Table 'protectease.upsiee_faq_information' doesn't exist
+CRITICAL - 2024-09-10 12:14:37 --> Table 'protectease.upsiee_faq_information' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(743): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->getfaqinfodata()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-10 12:15:57 --> Invalid file: master/faq_info/validation.php
+#0 /var/www/html/protectease/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Views/master/faqs/faqs.php(42): view()
+#3 /var/www/html/protectease/system/View/View.php(230): include('...')
+#4 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#6 /var/www/html/protectease/app/Controllers/Master.php(767): view()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fnewFaq()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-10 12:17:26 --> Invalid file: master/promotional_section/filter_promotional_section_list.php
+#0 /var/www/html/protectease/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Views/master/promotional/index.php(53): view()
+#3 /var/www/html/protectease/system/View/View.php(230): include('...')
+#4 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#6 /var/www/html/protectease/app/Controllers/Master.php(460): view()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fgetpromotions()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:17:58 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+CRITICAL - 2024-09-10 12:17:58 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(484): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fgetpromotionallist()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:20:33 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+CRITICAL - 2024-09-10 12:20:33 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(484): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fgetpromotionallist()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-09-10 12:20:41 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+CRITICAL - 2024-09-10 12:20:41 --> Table 'protectease.upsiee_promotional_model' doesn't exist
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/protectease/app/Controllers/Master.php(484): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Master->fgetpromotionallist()
+#8 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-10 15:36:55 --> Undefined array key "user_id"
+#0 /var/www/html/protectease/app/Views/journey/carts/index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(27): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-10 16:09:03 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/user_details.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(184): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fVerifyUserDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-10 17:35:38 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 17:37:20 --> syntax error, unexpected token "=>"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 17:47:03 --> Undefined variable $sUserType
+#0 /var/www/html/protectease/app/Controllers/Journey.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fUpdateUserDetails()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-10 17:48:06 --> Undefined variable $otpMethod
+#0 /var/www/html/protectease/app/Controllers/Journey.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fUpdateUserDetails()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-10 18:02:07 --> Undefined array key "device_id"
+#0 /var/www/html/protectease/app/Views/layouts/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/View/View.php(246): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#5 /var/www/html/protectease/app/Controllers/Carts.php(27): view()
+#6 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#7 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-10 18:05:25 --> Call to undefined function random_string()
+#0 /var/www/html/protectease/system/View/View.php(230): include()
+#1 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/protectease/system/View/View.php(246): CodeIgniter\View\View->render()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(27): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-10 19:10:35 --> Undefined variable $aUserDetails
+#0 /var/www/html/protectease/app/Controllers/Journey.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fUpdateUserDetails()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-10 19:17:45 --> Undefined array key "cust_zip_code"
+#0 /var/www/html/protectease/app/Controllers/Journey.php(168): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fAddPlanInCart()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-10 19:19:02 --> Undefined array key "cust_zip_code"
+#0 /var/www/html/protectease/app/Controllers/Journey.php(168): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fAddPlanInCart()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-10 19:38:05 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:05 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:05 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:05 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:05 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:10 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:10 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:16 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:38:16 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:50 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:50 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:50 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:50 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:50 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:39:53 --> syntax error, unexpected variable "$iCustomerId"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-10 19:50:21 --> Undefined variable $tax
+#0 /var/www/html/protectease/app/Views/journey/carts/index.php(127): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Carts.php(27): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Carts->index()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

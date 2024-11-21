@@ -1,0 +1,29 @@
+CRITICAL - 2024-11-14 13:47:36 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('139')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(29): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(75): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-14 13:57:56 --> Invalid file: website/views/blogs.php
+#0 C:\xampp_8_0\htdocs\protectease\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/views/b...')
+#1 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('website/views/b...', Array, true)
+#2 C:\xampp_8_0\htdocs\protectease\app\Views\website\includes\common-file.php(4): view('website/views/b...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('website/include...', Array, true)
+#6 C:\xampp_8_0\htdocs\protectease\app\Controllers\Home.php(81): view('website/include...', Array)
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Home->blogs()
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-14 13:22:12 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp_8_0\htdocs\protectease\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp_8_0\htdocs\protectease\index.php(28): require('C:\\xampp_8_0\\ht...')
+#2 {main}

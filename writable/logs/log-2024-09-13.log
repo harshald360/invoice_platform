@@ -1,0 +1,88 @@
+CRITICAL - 2024-09-13 11:18:24 --> Invalid file: journey/checkout.php
+#0 /var/www/html/protectease/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/protectease/app/Controllers/Journey.php(382): view()
+#3 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#4 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-13 16:00:42 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-13 16:00:52 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-13 16:01:09 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-13 16:01:10 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-13 16:01:10 --> Undefined variable $sJourneyProduct
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-13 16:11:24 --> Undefined array key "product_category"
+#0 /var/www/html/protectease/app/Views/journey/checkout/index.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(405): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-09-13 16:12:11 --> Unknown column 'product_brandproduct_subcategory' in 'field list'
+CRITICAL - 2024-09-13 16:12:11 --> Unknown column 'product_brandproduct_subcategory' in 'field list'
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/app/Models/Master_model.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/protectease/app/Controllers/Journey.php(385): App\Models\Master_model->getRecords()
+#6 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fPlanCheckoutDetails()
+#7 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

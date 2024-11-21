@@ -1,0 +1,288 @@
+CRITICAL - 2024-11-15 12:15:40 --> Call to a member function query() on null
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(22): App\Models\Master_model->getTopSellingCategories()
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-15 12:16:22 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(22): App\Models\Master_model->getTopSellingCategories()
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-15 12:31:21 --> Undefined array key "product_category"
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\dashboard\index.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 333)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(28): view('dashboard/index', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 12:33:32 --> Undefined array key 0
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\dashboard\index.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 335)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(28): view('dashboard/index', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 12:33:39 --> Undefined array key "icon"
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\dashboard\index.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 335)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(28): view('dashboard/index', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 12:33:52 --> Undefined array key 0
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\dashboard\index.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 335)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(28): view('dashboard/index', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 13:00:19 --> Array to string conversion
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\dashboard\index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp_8_0\\ht...', 121)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(28): view('dashboard/index', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-15 13:18:50 --> Column 'created_at' in where clause is ambiguous
+CRITICAL - 2024-11-15 13:18:50 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(41): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-15 13:20:13 --> Call to undefined function App\Controllers\ate()
+#0 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-11-15 13:26:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(created_at) < IS NULL' at line 4
+ERROR - 2024-11-15 13:26:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(created_at) < IS NULL' at line 4
+ERROR - 2024-11-15 13:28:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `created_at` < IS NULL' at line 4
+ERROR - 2024-11-15 13:28:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `created_at` < IS NULL' at line 4
+ERROR - 2024-11-15 13:28:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `created_at` < IS NULL' at line 4
+CRITICAL - 2024-11-15 13:50:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include()
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(31): view('dashboard/index', Array)
+#4 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-11-15 15:01:25 --> Unknown column 'cust_id' in 'where clause'
+CRITICAL - 2024-11-15 15:01:25 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(34): App\Models\Master_model->getRecords('upsiee_orders', Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 15:01:50 --> Unknown column 'cust_id' in 'where clause'
+CRITICAL - 2024-11-15 15:01:50 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(34): App\Models\Master_model->getRecords('upsiee_orders', Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 15:02:07 --> Unknown column 'cust_id' in 'where clause'
+CRITICAL - 2024-11-15 15:02:07 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(34): App\Models\Master_model->getRecords('upsiee_orders', Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-15 15:02:51 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('139')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(29): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(76): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-15 15:03:08 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('98')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(29): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(76): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-15 15:14:57 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('177')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(31): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(80): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-15 15:16:32 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('177')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(31): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(81): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-15 15:17:26 --> Undefined array key "plan_details"
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 8)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(81): view('customers/track...', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 15:17:42 --> Undefined array key "plan_details"
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 8)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(81): view('customers/track...', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 15:17:59 --> Undefined array key "plan_details"
+#0 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 8)
+#1 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#4 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(81): view('customers/track...', Array)
+#5 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-15 15:20:17 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('177')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(34): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(78): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-15 15:20:46 --> Cannot access offset of type string on string
+#0 [internal function]: CodeIgniter\View\View->{closure}('177')
+#1 C:\xampp_8_0\htdocs\protectease\app\Views\customers\track_order_claim\rander_order_details.php(34): array_filter(Array, Object(Closure))
+#2 C:\xampp_8_0\htdocs\protectease\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#3 C:\xampp_8_0\htdocs\protectease\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_8_0\htdocs\protectease\system\Common.php(1271): CodeIgniter\View\View->render('customers/track...', Array, true)
+#5 C:\xampp_8_0\htdocs\protectease\app\Controllers\Customers\TrackOrdersClaimHistory.php(78): view('customers/track...', Array)
+#6 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Customers\TrackOrdersClaimHistory->get_order_data_of_customer()
+#7 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers\TrackOrdersClaimHistory))
+#8 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-11-15 16:35:15 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:35:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:35:22 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:35:22 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:35:43 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:35:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:35:54 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:35:54 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:36:06 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:36:06 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:36:56 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:36:56 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-15 16:37:27 --> FUNCTION upsiee_order_plans.DATE does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2024-11-15 16:37:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\protectease\app\Controllers\Dashboard.php(42): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(928): App\Controllers\Dashboard->get_records_of_custom_range()
+#2 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\protectease\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\protectease\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

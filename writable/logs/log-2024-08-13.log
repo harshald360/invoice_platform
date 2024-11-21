@@ -1,0 +1,665 @@
+INFO - 2024-08-13 05:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 05:47:28 --> Error: Undefined constant "App\Controllers\this"
+[Method: POST, Route: boards/orders/reject]
+in APPPATH/Controllers/Orders.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 05:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 05:47:46 --> ErrorException: Undefined array key "user_id"
+[Method: POST, Route: boards/orders/reject]
+in APPPATH/Models/OrderModel.php on line 66.
+ 1 APPPATH/Models/OrderModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', '/opt/lampp/htdocs/ci/protectEase/app/Models/OrderModel.php', 66)
+ 2 APPPATH/Controllers/Orders.php(107): App\Models\OrderModel->getOrderWithDetails(null)
+ 3 APPPATH/Controllers/Orders.php(226): App\Controllers\Orders->fChangeOrdersStatus(null, 4, 'discrepancies in the invoice details')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 05:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 05:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 06:25:22 --> mysqli_sql_exception: Column 'updated_by' cannot be null in /opt/lampp/htdocs/ci/protectEase/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/protectEase/system/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `up...', 0)
+#1 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 /opt/lampp/htdocs/ci/protectEase/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 /opt/lampp/htdocs/ci/protectEase/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/ci/protectEase/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/ci/protectEase/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/ci/protectEase/app/Controllers/Orders.php(229): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/ci/protectEase/app/Controllers/Orders.php(257): App\Controllers\Orders->fChangeOrdersStatus('1', 4, 'discrepancies i...')
+#9 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+#10 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+#11 /opt/lampp/htdocs/ci/protectEase/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/ci/protectEase/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/ci/protectEase/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /opt/lampp/htdocs/ci/protectEase/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-08-13 06:25:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'updated_by' cannot be null
+[Method: POST, Route: boards/orders/reject]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (:order_id:, :order_status:, :updated_by:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Orders.php(229): CodeIgniter\Model->insert([...])
+ 6 APPPATH/Controllers/Orders.php(257): App\Controllers\Orders->fChangeOrdersStatus('1', 4, 'discrepancies in the invoice details')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 06:25:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'updated_by' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (\'1\', 4, NULL, 0, \'2024-08-13 06:25:22\', \'2024-08-13 06:25:22\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (\'1\', 4, NULL, 0, \'2024-08-13 06:25:22\', \'2024-08-13 06:25:22\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (:order_id:, :order_status:, :updated_by:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Orders.php(229): CodeIgniter\Model->insert([...])
+ 8 APPPATH/Controllers/Orders.php(257): App\Controllers\Orders->fChangeOrdersStatus('1', 4, 'discrepancies in the invoice details')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 06:25:22 --> [Caused by] mysqli_sql_exception: Column 'updated_by' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (\'1\', 4, NULL, 0, \'2024-08-13 06:25:22\', \'2024-08-13 06:25:22\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (\'1\', 4, NULL, 0, \'2024-08-13 06:25:22\', \'2024-08-13 06:25:22\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (\'1\', 4, NULL, 0, \'2024-08-13 06:25:22\', \'2024-08-13 06:25:22\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `upsiee_order_status` (`order_id`, `order_status`, `updated_by`, `is_active`, `created_at`, `updated_at`) VALUES (:order_id:, :order_status:, :updated_by:, :is_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Orders.php(229): CodeIgniter\Model->insert([...])
+ 9 APPPATH/Controllers/Orders.php(257): App\Controllers\Orders->fChangeOrdersStatus('1', 4, 'discrepancies in the invoice details')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 06:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 06:49:50 --> ErrorException: Undefined variable $id
+[Method: POST, Route: boards/orders/reject]
+in APPPATH/Controllers/Orders.php on line 259.
+ 1 APPPATH/Controllers/Orders.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Orders.php', 259)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 06:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 06:51:17 --> ErrorException: Undefined variable $id
+[Method: POST, Route: boards/orders/reject]
+in APPPATH/Controllers/Orders.php on line 259.
+ 1 APPPATH/Controllers/Orders.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Orders.php', 259)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fRejectOrders()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 06:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 06:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 07:22:32 --> ErrorException: Undefined variable $aOrderStatus
+[Method: GET, Route: boards/orders/view/1/PE20240809112206]
+in APPPATH/Views/orders/order_details.php on line 91.
+ 1 APPPATH/Views/orders/order_details.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aOrderStatus', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 91)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('1', 'PE20240809112206')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 07:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 07:33:41 --> ParseError: syntax error, unexpected token "break", expecting "," or ";"
+[Method: GET, Route: boards/orders/view/1/PE20240809112206]
+in APPPATH/Views/orders/order_details.php on line 101.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 3 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('1', 'PE20240809112206')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 07:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 07:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 08:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 09:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:53:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:55:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 197.
+ 1 APPPATH/Views/orders/order_details.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php', 197)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/protectEase/app/Views/orders/order_details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 5 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 09:56:48 --> ParseError: syntax error, unexpected token "{"
+[Method: GET, Route: boards/orders/view/2/PE20240809193500]
+in APPPATH/Views/orders/order_details.php on line 165.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('orders/order_details', [], true)
+ 3 APPPATH/Controllers/Orders.php(101): view('orders/order_details', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orders->fGetOrdersDetails('2', 'PE20240809193500')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 09:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 10:19:36 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: boards/dashboard]
+in APPPATH/Config/Routes.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 10:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 10:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 13:21:19 --> ErrorException: Undefined variable $msg
+[Method: POST, Route: boards/masters/explore/add]
+in APPPATH/Controllers/Master.php on line 310.
+ 1 APPPATH/Controllers/Master.php(310): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msg', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Master.php', 310)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fAddExploreProducts()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 13:24:28 --> ErrorException: Undefined array key "icon"
+[Method: POST, Route: boards/masters/explore/add]
+in APPPATH/Controllers/Master.php on line 291.
+ 1 APPPATH/Controllers/Master.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Master.php', 291)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fAddExploreProducts()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 14:13:12 --> ErrorException: Undefined array key "icon"
+[Method: POST, Route: boards/masters/explore/loadIcons]
+in APPPATH/Controllers/Master.php on line 347.
+ 1 APPPATH/Controllers/Master.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Master.php', 347)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fLoadExploreProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 14:13:18 --> ErrorException: Undefined array key "icon"
+[Method: POST, Route: boards/masters/explore/loadIcons]
+in APPPATH/Controllers/Master.php on line 347.
+ 1 APPPATH/Controllers/Master.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Master.php', 347)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fLoadExploreProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 14:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 14:13:42 --> ErrorException: Undefined array key "icon"
+[Method: POST, Route: boards/masters/explore/loadIcons]
+in APPPATH/Controllers/Master.php on line 348.
+ 1 APPPATH/Controllers/Master.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/ci/protectEase/app/Controllers/Master.php', 348)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->fLoadExploreProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 14:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

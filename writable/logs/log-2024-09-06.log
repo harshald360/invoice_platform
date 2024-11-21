@@ -1,0 +1,254 @@
+CRITICAL - 2024-09-06 00:11:58 --> syntax error, unexpected variable "$routes"
+#0 /var/www/html/protectease/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#1 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-09-06 00:13:58 --> Class "App\Controllers\ResponseInterface" not found
+#0 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fSendOTP()
+#1 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-09-06 00:35:17 --> Undefined property: App\Controllers\Journey::$otpModel
+#0 /var/www/html/protectease/app/Controllers/Journey.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fSendOTP()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 00:36:43 --> syntax error, unexpected token "(", expecting variable or "{" or "$"
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-09-06 00:37:05 --> Column 'user_id' cannot be null
+CRITICAL - 2024-09-06 00:37:05 --> Column 'user_id' cannot be null
+#0 /var/www/html/protectease/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/protectease/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/protectease/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/protectease/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/protectease/app/Models/Master_model.php(180): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/protectease/app/Controllers/Journey.php(253): App\Models\Master_model->insertRecord()
+#6 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fSendOTP()
+#7 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-06 00:56:40 --> Undefined variable $sEmail
+#0 /var/www/html/protectease/app/Controllers/Journey.php(267): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fSendOTP()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 08:52:59 --> Undefined array key 0
+#0 /var/www/html/protectease/app/Controllers/Journey.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fVerifyOtp()
+#2 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 09:11:17 --> Cannot redeclare App\Controllers\Journey::fVerifyOTP()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-06 09:35:08 --> syntax error, unexpected token "public", expecting end of file
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-09-06 09:35:08 --> syntax error, unexpected token "public", expecting end of file
+#0 /var/www/html/protectease/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/protectease/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/protectease/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/protectease/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-09-06 15:10:51 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: Handshake timed out
+ERROR - 2024-09-06 15:10:51 --> Email sending failed. 220 ESMTP smtp.hostinger.com
+<br /><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre>Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Fri, 6 Sep 2024 15:10:42 +0530
+From: &quot;ProtectEase&quot; &lt;info@zeplinix.com&gt;
+Return-Path: &lt;info@zeplinix.com&gt;
+To: sandipd@301io.com
+Subject: =?UTF-8?Q?OTP=20Verification=20for=20Warranty=20Plan=20Confirmation?=
+Reply-To: &lt;info@zeplinix.com&gt;
+User-Agent: CodeIgniter
+X-Sender: info@zeplinix.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66dace1ae52d60.41348534@zeplinix.com&gt;
+Mime-Version: 1.0
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66dace1ae52fd2.66621070&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66dace1ae52fd2.66621070
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear SANDY,
+
+ Thank you for processing your warranty with us!
+
+ To process your warranty plan and complete the process, please use the
+One-Time Password (OTP) provided below :
+
+ Your OTP is: 581174
+
+ Please enter this OTP on our website to process your warranty registration.
+If you did not initiate this request, please ignore this email or contact
+our support team for assistance.
+
+ Thank you for choosing our products!
+
+
+--B_ALT_66dace1ae52fd2.66621070
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;!DOCTYPE html&gt;=0A            &lt;body style=3D'font-family: Arial, sans-serif=
+;line-height: 1.6;margin: 0;padding: 0;color: #333;''&gt;=0A                &lt;d=
+iv class=3D'container' style=3D'width: 70%;margin: 0 auto;padding: 20px;bac=
+kground-color: #f9f9f9;border: 1px solid #ddd;border-radius: 10px;'&gt;=0A    =
+                &lt;p&gt;Dear SANDY,&lt;/p&gt;=0A=0A                    &lt;p&gt;Thank you fo=
+r processing your warranty with us!&lt;/p&gt;=0A=0A                    &lt;p&gt;To proc=
+ess your warranty plan and complete the process, please use the One-Time Pa=
+ssword (OTP) provided below :&lt;/p&gt;=0A=0A                    &lt;p class=3D'otp'=
+ style=3D'font-size: 1.2em;font-weight: bold;color: #007bff;'&gt;Your OTP is: =
+581174&lt;/p&gt;=0A=0A                    &lt;p&gt;Please enter this OTP on our website=
+ to process your warranty registration. If you did not initiate this reques=
+t, please ignore this email or contact our support team for assistance.&lt;/p&gt;=
+=0A=0A                    &lt;p&gt;Thank you for choosing our products!&lt;/p&gt;=0A=0A=
+                    &lt;p class=3D'footer' style=3D'margin-top: 20px;font-size=
+: 0.9em;''&gt;Best regards,&lt;br&gt;ProtectEase&lt;/p&gt;=0A                &lt;/div&gt;=0A    =
+        &lt;/body&gt;=0A            &lt;/html&gt;
+
+--B_ALT_66dace1ae52fd2.66621070--</pre>
+ERROR - 2024-09-06 16:29:45 --> Email sending failed. 220 ESMTP smtp.hostinger.com
+<br /><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>from: 250 2.1.0 Ok
+</pre><pre>to: 501 5.1.3 Bad recipient address syntax
+</pre>The following SMTP error was encountered: 501 5.1.3 Bad recipient address syntax
+<br /><pre>quit: 221 2.0.0 Bye
+</pre>Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Fri, 6 Sep 2024 16:29:41 +0530
+From: &quot;ProtectEase&quot; &lt;info@zeplinix.com&gt;
+Return-Path: &lt;info@zeplinix.com&gt;
+Subject: =?UTF-8?Q?OTP=20Verification=20for=20Warranty=20Plan=20Confirmation?=
+Reply-To: &lt;info@zeplinix.com&gt;
+User-Agent: CodeIgniter
+X-Sender: info@zeplinix.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66dae09d180320.12125282@zeplinix.com&gt;
+Mime-Version: 1.0
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66dae09d180420.32172249&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66dae09d180420.32172249
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear ,
+
+ Thank you for processing your warranty with us!
+
+ To process your warranty plan and complete the process, please use the
+One-Time Password (OTP) provided below :
+
+ Your OTP is: 275305
+
+ Please enter this OTP on our website to process your warranty registration.
+If you did not initiate this request, please ignore this email or contact
+our support team for assistance.
+
+ Thank you for choosing our products!
+
+
+--B_ALT_66dae09d180420.32172249
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;!DOCTYPE html&gt;=0A            &lt;body style=3D'font-family: Arial, sans-serif=
+;line-height: 1.6;margin: 0;padding: 0;color: #333;''&gt;=0A                &lt;d=
+iv class=3D'container' style=3D'width: 70%;margin: 0 auto;padding: 20px;bac=
+kground-color: #f9f9f9;border: 1px solid #ddd;border-radius: 10px;'&gt;=0A    =
+                &lt;p&gt;Dear ,&lt;/p&gt;=0A=0A                    &lt;p&gt;Thank you for pro=
+cessing your warranty with us!&lt;/p&gt;=0A=0A                    &lt;p&gt;To process y=
+our warranty plan and complete the process, please use the One-Time Passwor=
+d (OTP) provided below :&lt;/p&gt;=0A=0A                    &lt;p class=3D'otp' styl=
+e=3D'font-size: 1.2em;font-weight: bold;color: #007bff;'&gt;Your OTP is: 27530=
+5&lt;/p&gt;=0A=0A                    &lt;p&gt;Please enter this OTP on our website to p=
+rocess your warranty registration. If you did not initiate this request, pl=
+ease ignore this email or contact our support team for assistance.&lt;/p&gt;=0A=
+=0A                    &lt;p&gt;Thank you for choosing our products!&lt;/p&gt;=0A=0A   =
+                 &lt;p class=3D'footer' style=3D'margin-top: 20px;font-size: 0=
+.9em;''&gt;Best regards,&lt;br&gt;ProtectEase&lt;/p&gt;=0A                &lt;/div&gt;=0A       =
+     &lt;/body&gt;=0A            &lt;/html&gt;
+
+--B_ALT_66dae09d180420.32172249--</pre>
+CRITICAL - 2024-09-06 21:32:18 --> Undefined array key "product_name"
+#0 /var/www/html/protectease/app/Views/journey/plans.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(66): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fProductEligibilityPlans()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-06 21:38:11 --> Array to string conversion
+#0 /var/www/html/protectease/app/Views/journey/plans.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/protectease/system/View/View.php(230): include('...')
+#2 /var/www/html/protectease/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/protectease/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/protectease/app/Controllers/Journey.php(66): view()
+#5 /var/www/html/protectease/system/CodeIgniter.php(928): App\Controllers\Journey->fProductEligibilityPlans()
+#6 /var/www/html/protectease/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/protectease/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/protectease/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

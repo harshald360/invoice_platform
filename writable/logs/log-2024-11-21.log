@@ -1,0 +1,669 @@
+CRITICAL - 2024-11-21 14:57:35 --> Invalid file: home/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Home.php(26): view('home/index', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 14:58:03 --> Invalid file: protection_plans/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('protection_plan...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('protection_plan...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\ProtectionPlans.php(23): view('protection_plan...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\ProtectionPlans->fGetProtectionPlans()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProtectionPlans))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 14:58:03 --> Invalid file: protection_plans/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('protection_plan...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('protection_plan...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\ProtectionPlans.php(23): view('protection_plan...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\ProtectionPlans->fGetProtectionPlans()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProtectionPlans))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 14:58:11 --> Invalid file: protection_plans/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('protection_plan...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('protection_plan...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\ProtectionPlans.php(23): view('protection_plan...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\ProtectionPlans->fGetProtectionPlans()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProtectionPlans))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 14:58:17 --> Invalid file: orders/filter_order_list.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('orders/filter_o...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('orders/filter_o...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\dashboard\index.php(676): view('orders/filter_o...')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(27): view('dashboard/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 14:58:23 --> Invalid file: orders/filter_order_list.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('orders/filter_o...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('orders/filter_o...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\dashboard\index.php(676): view('orders/filter_o...')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(27): view('dashboard/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 15:00:08 --> Invalid file: orders/filter_order_list.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('orders/filter_o...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('orders/filter_o...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\dashboard\index.php(676): view('orders/filter_o...')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(27): view('dashboard/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 15:03:05 --> Invalid file: import_excels/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('import_excels/i...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('import_excels/i...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\products\index.php(3): view('import_excels/i...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('products/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Products.php(28): view('products/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Products->index()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 15:05:47 --> Invalid file: import_excels/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('import_excels/i...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('import_excels/i...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\products\index.php(3): view('import_excels/i...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('products/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Products.php(28): view('products/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Products->index()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 15:06:51 --> Invalid file: master/explore/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/explore/...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('master/explore/...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Master.php(338): view('master/explore/...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Master->fExploreProducts()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 15:07:09 --> Invalid file: import_excels/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('import_excels/i...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('import_excels/i...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\products\index.php(3): view('import_excels/i...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('products/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Products.php(28): view('products/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Products->index()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-11-21 15:16:06 --> Class "App\Models\LoginAttemptModel" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(181): App\Filters\IPBlocker->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/dashboar...', 'before')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-11-21 15:16:55 --> Class "App\Filters\IPBlocker" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/dashboar...', 'before')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-11-21 15:17:19 --> Invalid file: import_excels/index.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('import_excels/i...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('import_excels/i...', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Views\products\index.php(3): view('import_excels/i...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('products/index', Array, true)
+#6 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Products.php(28): view('products/index', Array)
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Products->index()
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-11-21 15:20:10 --> Table 'invoice_platform.upsiee_order_plans' doesn't exist
+CRITICAL - 2024-11-21 15:20:10 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(20): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-21 15:20:10 --> Table 'invoice_platform.upsiee_order_plans' doesn't exist
+CRITICAL - 2024-11-21 15:20:10 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(20): App\Models\Master_model->getOrdersDetails(0, 0, Array)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-21 15:22:24 --> method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(1744): method_exists(NULL, 'getOrdersDetail...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Model.php(796): CodeIgniter\BaseModel->__call('getOrdersDetail...', Array)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Dashboard.php(20): CodeIgniter\Model->__call('getOrdersDetail...', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Dashboard->fBoardDashboard()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 15:23:27 --> Class "App\Models\CustomersModel" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Customers->index()
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-11-21 15:26:40 --> Table 'invoice_platform.upsiee_configuration' doesn't exist
+CRITICAL - 2024-11-21 15:26:40 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Master.php(38): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Master->fConfiguration()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 15:27:57 --> Table 'invoice_platform.upsiee_configuration' doesn't exist
+CRITICAL - 2024-11-21 15:27:57 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Master.php(38): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Master->fConfiguration()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 15:35:16 --> Class "App\Filters\DeviceIdFilter" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/products', 'before')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-11-21 15:35:34 --> Class "Config\DeviceIdFilter" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/products', 'before')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-11-21 15:35:46 --> deviceId filter must have a matching alias defined.
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(546): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('deviceId')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('boards/products')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/products', 'before')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 15:36:05 --> deviceId filter must have a matching alias defined.
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(546): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('deviceId')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('boards/products')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/products', 'before')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 15:36:06 --> deviceId filter must have a matching alias defined.
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(546): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('deviceId')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('boards/products')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards/products', 'before')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 15:36:09 --> deviceId filter must have a matching alias defined.
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(546): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('deviceId')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('boards')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('boards', 'before')
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 15:38:13 --> Class "App\Models\CustomersModel" not found
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Customers->index()
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-11-21 16:38:59 --> Invalid file: companyindex.php
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('companyindex.ph...')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('companyindex', Array, true)
+#2 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(22): view('companyindex', Array)
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-21 16:39:16 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(22): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:39:30 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(22): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:39:33 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(22): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:40:19 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(20): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:42:03 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(20): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:43:02 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(20): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:46:36 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(20): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-11-21 16:46:46 --> Undefined variable $submenu
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\common\board\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8_0\\ht...', 55)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('common/board/fo...', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Views\layouts\board\index.php(58): view('common/board/fo...')
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(246): CodeIgniter\View\View->render('layouts/board/i...', Array, true)
+#8 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/index', Array, true)
+#9 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(20): view('company/index', Array)
+#10 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->index()
+#11 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#12 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2024-11-21 17:06:51 --> Unknown column 'user_role' in 'where clause'
+CRITICAL - 2024-11-21 17:06:51 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:07:25 --> Unknown column 'user_role' in 'where clause'
+CRITICAL - 2024-11-21 17:07:25 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:07:37 --> Unknown column 'user_role' in 'where clause'
+CRITICAL - 2024-11-21 17:07:37 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:18:10 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 17:18:10 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:18:10 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 17:18:10 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:18:11 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 17:18:11 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:18:11 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 17:18:11 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 17:18:11 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 17:18:11 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-21 17:26:11 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:26:14 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:26:36 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:30:00 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:30:44 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:30:47 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 17:30:53 --> Undefined array key "gstin"
+#0 C:\xampp_8_0\htdocs\invoice-generation\app\Views\company\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp_8_0\\ht...', 23)
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(230): include('C:\\xampp_8_0\\ht...')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\Common.php(1271): CodeIgniter\View\View->render('company/list', Array, true)
+#4 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(53): view('company/list', Array)
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#7 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-21 18:07:51 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-21 18:08:36 --> There is no data to update.
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(86): CodeIgniter\Model->update(Array)
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fAddCompany()
+#5 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#6 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-11-21 18:11:27 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:27 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:28 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:28 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:28 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:28 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:28 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:28 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:28 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:28 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:30 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:30 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:30 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:30 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:30 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:30 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:38 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:38 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:38 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:38 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:39 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:39 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:39 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:39 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:39 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:39 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-11-21 18:11:39 --> Unknown column 'gstin' in 'where clause'
+CRITICAL - 2024-11-21 18:11:39 --> Call to a member function getResult() on bool
+#0 C:\xampp_8_0\htdocs\invoice-generation\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp_8_0\htdocs\invoice-generation\app\Controllers\Company_settings.php(39): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(928): App\Controllers\Company_settings->fGetCompanyList('1')
+#3 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company_settings))
+#4 C:\xampp_8_0\htdocs\invoice-generation\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8_0\htdocs\invoice-generation\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

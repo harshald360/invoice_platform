@@ -1,0 +1,809 @@
+CRITICAL - 2024-06-26 07:02:29 --> ErrorException: Undefined variable $password
+[Method: POST, Route: boards/authenticate-user]
+in APPPATH/Controllers/Authenticate.php on line 26.
+ 1 APPPATH/Controllers/Authenticate.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', '/opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php', 26)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:03:25 --> Error: Class "App\Controllers\UsersModel" not found
+[Method: POST, Route: boards/authenticate-user]
+in APPPATH/Controllers/Authenticate.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:05:02 --> ErrorException: Undefined variable $emailId
+[Method: POST, Route: boards/authenticate-user]
+in APPPATH/Controllers/Authenticate.php on line 37.
+ 1 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $emailId', '/opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php', 37)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-26 07:05:38 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-26 07:05:38 --> CodeIgniter\Database\Exceptions\DatabaseException: No database selected
+[Method: POST, Route: boards/authenticate-user]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 2 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:05:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: No database selected
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_email` = \'admin@gmail.com\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_email` = \'admin@gmail.com\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 4 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:05:38 --> [Caused by] mysqli_sql_exception: No database selected
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_email` = \'admin@gmail.com\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_email` = \'admin@gmail.com\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_email` = \'admin@gmail.com\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 5 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-26 07:06:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'root', 'zeplinix@123', 'upsiee', 3306, '', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-26 07:06:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: POST, Route: boards/authenticate-user]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-26 07:06:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'root', 'Zeplinix@123', 'upsiee', 3306, '', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-26 07:06:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: POST, Route: boards/authenticate-user]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-26 07:06:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'upsiee' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'upsiee', 3306, '', 0)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'upsiee' in /opt/lampp/htdocs/ci/upsiee/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/ci/upsiee/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /opt/lampp/htdocs/ci/upsiee/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/ci/upsiee/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /opt/lampp/htdocs/ci/upsiee/app/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+#7 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#8 /opt/lampp/htdocs/ci/upsiee/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/ci/upsiee/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/ci/upsiee/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-26 07:06:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'upsiee'
+[Method: POST, Route: boards/authenticate-user]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Authenticate.php(37): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fVerifyUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 07:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 07:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 07:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 07:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 07:31:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH/Controllers/Dashboard.php(16): view('dashboard', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:32:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/.php"
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/', [], true)
+ 3 APPPATH/Controllers/Dashboard.php(16): view('dashboard/', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 07:35:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "common/board/sidebar.php"
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('common/board/sidebar.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/sidebar', [], true)
+ 3 APPPATH/Views/dashboard/index.php(4): view('common/board/sidebar')
+ 4 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/dashboard/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(16): view('dashboard/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 09:56:52 --> Error: Class "CodeIgniter\Filters\IsAuth" not found
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 197.
+ 1 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('boards/dashboard', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 10:00:27 --> Error: Class "Config\Filters\IsAuth" not found
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Filters/Filters.php on line 197.
+ 1 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('boards/dashboard', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 10:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 10:01:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/boards" cannot be found.
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 64.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/boards')
+ 2 APPPATH/Filters/IsAuth.php(15): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH/Filters/Filters.php(205): App\Filters\IsAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('boards/dashboard', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 10:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 10:06:39 --> ErrorException: Undefined variable $toaster
+[Method: GET, Route: boards]
+in APPPATH/Views/authentication/sign_in.php on line 90.
+ 1 APPPATH/Views/authentication/sign_in.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $toaster', '/opt/lampp/htdocs/ci/upsiee/app/Views/authentication/sign_in.php', 90)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/authentication/sign_in.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('authentication/sign_in', [], true)
+ 5 APPPATH/Controllers/Authenticate.php(18): view('authentication/sign_in', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Authenticate->fSignUp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 10:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 10:32:12 --> ErrorException: Undefined variable $toaster
+[Method: GET, Route: boards/dashboard]
+in APPPATH/Views/common/board/footer.php on line 51.
+ 1 APPPATH/Views/common/board/footer.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $toaster', '/opt/lampp/htdocs/ci/upsiee/app/Views/common/board/footer.php', 51)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/common/board/footer.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/footer', [], true)
+ 5 APPPATH/Views/dashboard/index.php(5): view('common/board/footer')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/dashboard/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(16): view('dashboard/index', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 10:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 10:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 11:24:08 --> ParseError: syntax error, unexpected token ","
+[Method: GET, Route: boards/dashboard]
+in APPPATH/Controllers/Dashboard.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/ci/upsiee/app/Controllers/Dashboard.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 11:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 11:24:21 --> ErrorException: Undefined variable $page
+[Method: GET, Route: boards/dashboard]
+in APPPATH/Views/common/board/footer.php on line 48.
+ 1 APPPATH/Views/common/board/footer.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', '/opt/lampp/htdocs/ci/upsiee/app/Views/common/board/footer.php', 48)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/common/board/footer.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('common/board/footer', [], true)
+ 5 APPPATH/Views/dashboard/index.php(5): view('common/board/footer')
+ 6 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/ci/upsiee/app/Views/dashboard/index.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(17): view('dashboard/index', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 11:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 11:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 12:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 13:36:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/board/index.php"
+[Method: GET, Route: boards/dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/board/index.php')
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/board/index', [], true)
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 4 APPPATH/Controllers/Dashboard.php(17): view('dashboard/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->fBoardDashboard()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 13:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 13:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:17:51 --> Error: Class "App\Controllers\CommonModel" not found
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:20:10 --> Error: Call to a member function prepareToasterData() on null
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:22:43 --> Error: Cannot call constructor
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:22:50 --> Error: Call to a member function prepareToasterData() on null
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:26:29 --> Error: Call to a member function prepareToasterData() on null
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:26:31 --> Error: Call to a member function prepareToasterData() on null
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:27:33 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/ci/upsiee/app/Controllers/Users.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Users')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Users')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Users', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:27:40 --> Error: Cannot call constructor
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-26 14:29:21 --> Error: Cannot call constructor
+[Method: GET, Route: boards/users/new]
+in APPPATH/Controllers/Users.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 14:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 14:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:34:55 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:51 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:52 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:53 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:53 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:54 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:54 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-26 14:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 14:37:54 --> Error: Call to undefined function encrypt_id()
+[Method: GET, Route: boards/users]
+in APPPATH/Views/users/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH/Controllers/Users.php(17): view('users/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

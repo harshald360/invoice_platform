@@ -1,0 +1,368 @@
+ERROR - 2024-11-04 14:51:21 --> Email sending failed. 220 ESMTP smtp.hostinger.com
+<br /><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>from: 250 2.1.0 Ok
+</pre><pre>to: 250 2.1.5 Ok
+</pre><pre>data: </pre>The following SMTP error was encountered: <br /><pre>quit: </pre>The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Mon, 4 Nov 2024 14:51:10 +0530
+From: &quot;ProtectEase&quot; &lt;info@zeplinix.com&gt;
+Return-Path: &lt;info@zeplinix.com&gt;
+To: sandipd.301io@gmail.com
+Subject: =?UTF-8?Q?Your=20Refund=20Has=20Been=20Processed=20?=
+Reply-To: &lt;info@zeplinix.com&gt;
+User-Agent: CodeIgniter
+X-Sender: info@zeplinix.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6728920661bf57.78663970@zeplinix.com&gt;
+Mime-Version: 1.0
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6728920661c020.06410877&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6728920661c020.06410877
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your Refund Has Been Processed
+
+
+
+
+
+ Hi SANDY,
+
+
+ We have processed your refund for the Microwave(Built-in) warranty.
+
+
+
+
+
+
+
+
+
+ Warranty Details:
+
+
+
+ Warranty No.: PE202411040EEAE33B
+
+
+
+
+
+
+
+
+
+
+ Please allow 3-5 business days for the refund to reflect in your original
+payment method.
+ If you have any questions, don’t hesitate to reach out at
+support@protectease.com.
+
+
+
+
+
+
+
+
+
+
+
+
+ Best regards,
+
+
+
+
+
+
+
+
+ Protectease Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 502 W 7th ST, STE 100
+
+ Erie,PA 165025
+
+ Email: info@301io.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ www.proteactease.com
+
+
+--B_ALT_6728920661c020.06410877
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+                                                                           =
+                                                       =0A    &lt;div id=3D&quot;si=
+debar-overlay&quot;&gt;&lt;/div&gt;&lt;table width=3D&quot;600&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cel=
+lpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; style=3D&quot;=0A        max-width: 600px;=0A  =
+      border-collapse: collapse;=0A        border-radius: 32px;=0A        m=
+argin-top: 20px;=0A        -webkit-box-shadow: 0px 0px 5px 0px rgba(184, 21=
+7, 255, 1);=0A        -moz-box-shadow: 0px 0px 5px 0px rgba(184, 217, 255, =
+1);=0A        box-shadow: 0px 0px 5px 0px rgba(184, 217, 255, 1);=0A      &quot;=
+ bgcolor=3D&quot;#F5F9FE&quot; class=3D&quot;wrapper&quot;&gt;=0A      &lt;tbody&gt;&lt;tr align=3D&quot;center&quot;=
+ valign=3D&quot;top&quot;&gt;=0A        &lt;td style=3D&quot;=0A            text-align: center;=
+=0A            font-family: Inter;=0A            font-weight: normal;=0A   =
+         font-size: 16px;=0A            line-height: 25px;=0A            pa=
+dding-right: 10px;=0A            padding-left: 10px;=0A            padding-=
+top: 20px;=0A          &quot;&gt;=0A          &lt;img style=3D&quot;width: 200px&quot; src=3D&quot;ht=
+tps://digisoftic.in/protectease/public/images/ProtectEaseLogo.png&quot;&gt;=0A     =
+   &lt;/td&gt;=0A      &lt;/tr&gt;=0A      &lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A     =
+   &lt;td style=3D&quot;=0A            text-align: center;=0A            font-famil=
+y: Inter;=0A            font-weight: normal;=0A            font-size: 16px;=
+=0A            line-height: 25px;=0A            padding-right: 25px;=0A    =
+        padding-left: 25px;=0A          &quot;&gt;=0A          &lt;img style=3D&quot;width:=
+ 600px&quot; src=3D&quot;https://digisoftic.in/protectease/v2/public/images/email/ref=
+und_banner.png&quot;&gt;=0A        &lt;/td&gt;=0A      &lt;/tr&gt;=0A=0A      &lt;tr align=3D&quot;cent=
+er&quot;&gt;&lt;/tr&gt;=0A      &lt;tr align=3D&quot;&quot; valign=3D&quot;top&quot;&gt;=0A        &lt;td&gt;=0A         =
+ &lt;/td&gt;&lt;/tr&gt;&lt;tr align=3D&quot;&quot; valign=3D&quot;top&quot;&gt;=0A            &lt;td style=3D&quot;=0A   =
+             font-family: Inter;=0A                font-weight: normal;=0A =
+               font-size: 16px;=0A                line-height: 25px;=0A    =
+            padding-top: 25px;=0A                padding-bottom: 25px;=0A  =
+              padding-right: 25px;padding-left: 25px;=0A              &quot;&gt;=0A=
+            &lt;div id=3D&quot;sidebar-overlay&quot;&gt;&lt;/div&gt;&lt;table width=3D&quot;100%&quot; border=
+=3D&quot;0&quot; align=3D&quot;left&quot; cellpadding=3D&quot;10&quot; cellspacing=3D&quot;0&quot; style=3D&quot;max-wid=
+th: 600px; border-collapse: collapse;background-color: #E5F1FF;border-radiu=
+s: 20px;&quot; class=3D&quot;wrapper&quot;&gt;=0A                &lt;tbody&gt;&lt;tr align=3D&quot;left&quot; va=
+lign=3D&quot;top&quot;&gt;=0A                  &lt;td style=3D&quot;width: 220px&quot;&gt;=0A           =
+         &lt;div id=3D&quot;sidebar-overlay&quot;&gt;&lt;/div&gt;&lt;table width=3D&quot;100%&quot; border=3D&quot;=
+0&quot; align=3D&quot;left&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; style=3D&quot; border-coll=
+apse: collapse;padding: 20px &quot; class=3D&quot;wrapper&quot;&gt;=0A                       =
+ &lt;tbody style=3D&quot;padding: 20px&quot;&gt;=0A                            &lt;tr align=3D=
+&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                            =0A                   =
+         &lt;td style=3D&quot;=0A                                text-align: left;=
+=0A                                font-family: Roboto Slab;=0A            =
+                    gap: 10px;=0A                                color: #09=
+68AD;font-size: 36px;padding-left: 20px;padding-right: 20px;padding-top: 20=
+px;font-weight: 700;line-height: 40px;&quot;&gt;=0A                                =
+ &lt;img style=3D&quot;width: 80px&quot; src=3D&quot;https://digisoftic.in/protectease/v2/pub=
+lic/images/email/refund.png&quot; alt=3D&quot;&quot;&gt;=0A                            &lt;/td&gt;=
+=0A                          &lt;/tr&gt;=0A                            &lt;tr align=
+=3D&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                            =0A                =
+            &lt;td style=3D&quot;=0A                                text-align: lef=
+t;=0A                                font-family: Roboto Slab;=0A          =
+                      gap: 10px;=0A                                color: #=
+0968AD;font-size: 36px;padding: 20px;font-weight: 700;line-height: 40px;&quot;&gt;=
+=0A                                   Your Refund Has Been Processed=0A    =
+                        &lt;/td&gt;=0A                          &lt;/tr&gt;=0A         =
+                   &lt;tr align=3D&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                   =
+         =0A                            &lt;td style=3D&quot;=0A                   =
+             text-align: left;=0A                                font-famil=
+y: Inter;=0A                                font-weight: normal;=0A        =
+                        font-size: 16px;=0A                                =
+gap: 10px;=0A                                padding-top: 20px;=0A         =
+                       padding-left: 20px;padding-right:20px;=0A           =
+                     padding-bottom: 5px;=0A                               =
+ color: #333333;=0A                                &quot;&gt;=0A                   =
+                Hi SANDY,=0A                                   &lt;/td&gt;&lt;/tr&gt;&lt;t=
+r&gt;=0A                                    &lt;td style=3D&quot;padding-left: 20px;pa=
+dding-right:20px;line-height: 20px; font-family: Inter;color: #333333;&quot;&gt;=0A=
+                                      We have processed your refund for the=
+ Microwave(Built-in) warranty. =0A                                    &lt;/td&gt;=
+=0A                                    =0A                                 =
+  &lt;/tr&gt;=0A                                  =0A                            =
+=0A                          =0A                            &lt;tr align=3D&quot;le=
+ft&quot; valign=3D&quot;top&quot;&gt;=0A                            =0A                      =
+      &lt;td style=3D&quot;=0A                                text-align: left;=0A =
+                               font-family: Inter;=0A                      =
+          font-weight: 700;=0A                                font-size: 20=
+px;=0A                                gap: 10px;=0A                        =
+        padding-left: 20px;padding-right:20px;=0A                          =
+      padding-top: 20px;=0A                                color: #0968AD;=
+=0A=0A                                &quot;&gt;=0A                                =
+  Warranty Details:=0A                                   &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A =
+                                   &lt;td style=3D&quot;padding-left: 20px;padding-=
+right:20px;line-height: 20px; font-family: Inter;&quot;&gt;=0A                     =
+                 &lt;ul&gt;=0A                                        &lt;li style=
+=3D&quot;padding-top: 2px;color: #333333;&quot;&gt;Warranty No.: PE202411040EEAE33B&lt;/li&gt;=
+=0A                                      &lt;/ul&gt;=0A                          =
+          &lt;/td&gt;=0A                                    =0A                  =
+                 &lt;/tr&gt;=0A=0A                                   &lt;tr align=3D=
+&quot;left&quot; valign=3D&quot;top&quot;&gt;=0A                            =0A                   =
+         &lt;td style=3D&quot;=0A                                text-align: left;=
+=0A                                font-family: Inter;=0A                  =
+              font-weight: 700;=0A                                font-size=
+: 20px;=0A                                gap: 0px;=0A                     =
+          padding: 20px;=0A                                color: #0968AD;=
+=0A                                &quot;&gt;=0A                                   =
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                                    &lt;td style=3D&quot;padding-l=
+eft: 20px;padding-right:20px;line-height: 20px; font-family: Inter;color: #=
+333333;&quot;&gt;=0A                                      Please allow 3-5 business=
+ days for the refund to reflect in your original payment method. =0A       =
+                               If you have any questions, don=E2=80=99t hes=
+itate to reach out at support@protectease.com. =0A                         =
+           &lt;/td&gt;=0A                                    =0A                 =
+                  &lt;/tr&gt;=0A                                  =0A            =
+                =0A                          =0A                           =
+=0A                            =0A                          &lt;tr align=3D&quot;ce=
+nter&quot; valign=3D&quot;top&quot;&gt;=0A                            &lt;td style=3D&quot;=0A       =
+                         text-align: center;=0A                            =
+    font-family:Inter;=0A                                font-weight: norma=
+l;=0A                                font-size: 12px;=0A                   =
+             line-height: 16.5pt;=0A                                padding=
+-left: 20px;=0A                                padding-right: 20px;=0A     =
+                           padding-top: 20px;=0A                           =
+     color: #333333;=0A                              &quot;&gt;=0A                 =
+            &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                                &lt;td style=3D&quot;p=
+adding-left: 20px;padding-right:20px;line-height: 20px;color: #333333;&quot;&gt;=0A=
+                                    Best regards,=0A                       =
+         &lt;/td&gt;=0A                               &lt;/tr&gt;=0A                   =
+         =0A                          =0A                          &lt;tr alig=
+n=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A                            &lt;td style=3D&quot;=0A=
+                                text-align: center;=0A                     =
+           font-family: Inter;=0A                                font-weigh=
+t: normal;=0A                                font-size: 12px;=0A           =
+                     line-height: 16.5pt;=0A                               =
+ padding-left: 20px;=0A                                padding-right: 20px;=
+=0A                                color: #333333;=0A                      =
+        &quot;&gt;=0A                             &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=0A                =
+                &lt;td style=3D&quot;padding-left: 20px;padding-right:20px;line-hei=
+ght: 20px;padding-bottom: 20px;color: #333333;&quot;&gt;=0A                        =
+           Protectease Team=0A                                &lt;/td&gt;=0A     =
+                          &lt;/tr&gt;=0A                            =0A          =
+                =0A                        &lt;/tbody&gt;&lt;/table&gt;=0A             =
+     &lt;/td&gt;=0A                &lt;/tr&gt;=0A              &lt;/tbody&gt;&lt;/table&gt;=0A     =
+        =0A            &lt;/td&gt;=0A          &lt;/tr&gt;=0A          =0A        =0A  =
+    =0A=0A      =0A=0A     =0A=0A      =0A      &lt;tr align=3D&quot;center&quot; valign=
+=3D&quot;top&quot;&gt;=0A        &lt;td style=3D&quot;=0A            padding-top: 10px;=0A      =
+      padding-bottom: 10px;=0A            padding-left: 20px;=0A           =
+ padding-right: 20px;=0A            background: #0064A9;=0A            bord=
+er-bottom-left-radius: 32px;=0A            border-bottom-right-radius: 32px=
+;=0A=0A          &quot;&gt;=0A          &lt;div id=3D&quot;sidebar-overlay&quot;&gt;&lt;/div&gt;&lt;table wi=
+dth=3D&quot;100%&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cellspacing=3D=
+&quot;0&quot; style=3D&quot;max-width: 600px; border-collapse: collapse&quot; class=3D&quot;wrapper&quot;=
+&gt;=0A            &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A             =
+ &lt;td style=3D&quot;width: 220px&quot;&gt;=0A                &lt;div id=3D&quot;sidebar-overlay&quot;&gt;=
+&lt;/div&gt;&lt;table width=3D&quot;100%&quot; border=3D&quot;0&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot;=
+ cellspacing=3D&quot;0&quot; style=3D&quot;max-width: 220px; border-collapse: collapse&quot; cl=
+ass=3D&quot;wrapper&quot;&gt;=0A                  &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;=
+top&quot;&gt;=0A                    &lt;td&gt;=0A                        &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;=
+=0A                            &lt;td style=3D&quot;width: 10%;position: relative;&quot;=
+&gt;=0A                              &lt;img src=3D&quot;https://digisoftic.in/protect=
+ease/v2/public/images/email/location.png&quot; alt=3D&quot;&quot; height=3D&quot;20&quot; style=3D&quot;p=
+osition: absolute;top: 0; padding-top:10px ;&quot;&gt;=0A                          =
+  &lt;/td&gt;=0A                            &lt;td style=3D&quot;padding-left: 10px;&quot;&gt;=0A=
+                                &lt;p style=3D&quot;margin: 0px ;margin-top: 10px;c=
+olor: white;font-family: Inter;&quot;&gt;502 W 7th ST, STE 100 &lt;/p&gt;=0A             =
+                   &lt;p style=3D&quot;margin: 0px ;margin-top: 8px;color: white;fo=
+nt-family: Inter;&quot;&gt;=0A                                    Erie,PA 165025=0A=
+                                &lt;/p&gt;=0A                                &lt;p s=
+tyle=3D&quot;margin: 0px ;margin-top: 8px;color: white;font-family: Inter;&quot;&gt;&lt;a h=
+ref=3D&quot;mailto:Email: info@301io.com&quot; style=3D&quot;color: white;&quot;&gt;Email: info@30=
+1io.com&lt;/a&gt;&lt;/p&gt;=0A=0A                        &lt;/td&gt;=0A                    &lt;/=
+tr&gt;=0A                    =0A                  =0A                &lt;/tbody&gt;&lt;=
+/table&gt;=0A              &lt;/td&gt;=0A              &lt;td style=3D&quot;width: 220px;pad=
+ding-top: 10px;&quot;&gt;=0A                &lt;div id=3D&quot;sidebar-overlay&quot;&gt;&lt;/div&gt;&lt;tabl=
+e width=3D&quot;100%&quot; align=3D&quot;center&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; style=
+=3D&quot;max-width: 220px; border-collapse: collapse&quot; class=3D&quot;wrapper&quot;&gt;=0A     =
+             &lt;tbody&gt;&lt;tr align=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A                =
+    =0A                    &lt;td style=3D&quot;=0A                        text-ali=
+gn: center;=0A                        font-family: Inter;=0A               =
+         font-weight: normal;=0A                        font-size: 16px;=0A=
+                        gap: 10px;=0A                        margin-top: 10=
+px;=0A                      &quot;&gt;=0A                    &lt;a href=3D&quot;&quot;&gt;=0A      =
+                &lt;img src=3D&quot;https://digisoftic.in/protectease/v2/public/ima=
+ges/email/twitter.png&quot; width=3D&quot;20&quot; height=3D&quot;20&quot; style=3D&quot;border: 1px soli=
+d white; padding: 5px;border-radius: 7px;&quot;&gt;=0A                    &lt;/a&gt;=0A  =
+                  &lt;a href=3D&quot;&quot;&gt;=0A                      &lt;img src=3D&quot;https:/=
+/digisoftic.in/protectease/v2/public/images/email/fb.png&quot; width=3D&quot;20&quot; heig=
+ht=3D&quot;20&quot; style=3D&quot;border: 1px solid white;padding: 5px;border-radius: 7px;=
+&quot;&gt;=0A                    &lt;/a&gt;=0A                    &lt;a href=3D&quot;&quot;&gt;=0A       =
+               &lt;img src=3D&quot;https://digisoftic.in/protectease/v2/public/imag=
+es/email/insta.png&quot; width=3D&quot;20&quot; height=3D&quot;20&quot; style=3D&quot;border: 1px solid w=
+hite;padding: 5px;border-radius: 7px;&quot;&gt;=0A                    &lt;/a&gt;=0A      =
+              &lt;/td&gt;=0A                  &lt;/tr&gt;=0A                  &lt;tr align=
+=3D&quot;center&quot; valign=3D&quot;top&quot;&gt;=0A                    &lt;td style=3D&quot;=0A         =
+               text-align: center;=0A                        font-family: I=
+nter;=0A                        font-weight: normal;=0A                    =
+    font-size: 12px;=0A                        line-height: 16.5pt;=0A     =
+                   padding-top: 10px;=0A                        padding-bot=
+tom: 10px;=0A                      &quot;&gt;=0A                     &lt;a href=3D&quot;&quot; s=
+tyle=3D&quot;color: white;font-size: 15px;text-decoration: underline;&quot;&gt;www.prote=
+actease.com&lt;/a&gt;=0A                    &lt;/td&gt;=0A                  &lt;/tr&gt;=0A   =
+             &lt;/tbody&gt;&lt;/table&gt;=0A              &lt;/td&gt;=0A            &lt;/tr&gt;=0A =
+         &lt;/tbody&gt;&lt;/table&gt;=0A        &lt;/td&gt;=0A      &lt;/tr&gt;=0A      =0A    &lt;/tb=
+ody&gt;&lt;/table&gt;
+
+--B_ALT_6728920661c020.06410877--</pre>
