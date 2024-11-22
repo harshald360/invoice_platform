@@ -13,49 +13,12 @@
         box-shadow: 0px -4px 24px 0px rgba(0, 0, 0, 0.05);
         background-color: #fff;
     }
-
-    .numerical-progress .outer-circle {
-        position: relative;
-        border-radius: 50%;
-        top: 7px;
-    }
-
-    .numerical-progress .small-circle {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .numerical-progress .small-circle {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        border: 1px solid rgba(100, 116, 139, 1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .numerical-progress .small-circle.active {
-        background-color: rgba(115, 61, 217, 1);
-        color: #fff;
-    }
 </style>
 <div class="card card-default color-palette-box">
     <div class="card-header">
         <h2 class="card-title">
             Create Invoice
         </h2>
-        <br>
     </div>
     <div class="card-header numerical-progress  justify-content-between border-0">
         <div class="row">
@@ -65,7 +28,7 @@
                         <div class="small-circle active" style="width: 37px; height: 37px;">1</div>
                     </div>
                     <span>Invoice Details</span>
-                    <span class="right-direction-icon" ><i class="fas fa-chevron-right" ></i></span>
+                    <span class="right-direction-icon"><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
             <div class="col-md-3">
@@ -74,6 +37,7 @@
                         <div class="small-circle" style="width: 37px; height: 37px;">2</div>
                     </div>
                     <span>Add Banking Details</span>
+                    <span class="right-direction-icon"><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
             <div class="col-md-3">
@@ -195,7 +159,7 @@
                                 <blockquote class="border-0 mt-0 mb-0 text-center">
                                     <h5 class="text-dark"><strong>Add/select Client Details</strong></h5>
                                     <p>Resolution up to 1080*1080 pixel.<br>JPG or PNG file </p>
-                                    <a href="#"><button class="btn action-btn"><i class="nav-icon fas fa-plus"></i> Create New Invoice</button></a>
+                                    <a href="#"><button class="btn action-btn"><i class="nav-icon fas fa-plus"></i> Create New Client</button></a>
                                 </blockquote>
                             </div>
                         </div>
@@ -258,9 +222,9 @@
                                             <td><input type="text" class="form-control form-control-border" id="description_of_goods" name="description_of_goods" placeholder="Description"></td>
                                             <td><input type="text" class="form-control form-control-border" id="hsn_no" name="hsn_no" placeholder="HSN"></td>
                                             <td> <input type="text" class="form-control form-control-border" id="packing" name="packing_tr" placeholder="Packing"></td>
-                                            <td> <input type="number" class="form-control form-control-border" id="tax_rate" name="tax_rate" placeholder="Tax"></td>
-                                            <td> <input type="number" class="form-control form-control-border" id="quantity" name="quantity" placeholder="Quantity"></td>
-                                            <td> <input type="number" class="form-control form-control-border" id="rate" name="rate" placeholder="Rate"></td>
+                                            <td> <input type="number" class="form-control form-control-border ValidInputValue" id="tax_rate" name="tax_rate" placeholder="Tax"  min="1" max="100" step="0.01" pattern="^\d{1,2}(\.\d{2})?$"></td>
+                                            <td> <input type="number" class="form-control form-control-border intOnly" id="quantity" name="quantity" placeholder="Quantity"></td>
+                                            <td> <input type="number" class="form-control form-control-border " id="rate" name="rate" placeholder="Rate"></td>
                                             <td> <input type="number" class="form-control form-control-border" id="amount" name="amount" placeholder="Amount"></td>
                                             <td class="text-center align-middle"><button class="border-0 bg-transparent purple-new"><i class="fas fa-trash"></i></button></td>
                                         </tr>
@@ -286,7 +250,7 @@
                                     <div class="col-md-6 col-sm-6 text-right">-</div>
                                 </div>
                                 <div class="row py-2 total-pay-bg">
-                                    <div class="col-md-6 col-sm-6">Rounding Off :</div>
+                                    <div class="col-md-6 col-sm-6">Total Payable :</div>
                                     <div class="col-md-6 col-sm-6 text-right">6,540.00</div>
                                 </div>
                             </div>
@@ -302,7 +266,7 @@
                             </div>
                             <div class="card-body pt-0 px-2">
                                 <form action="">
-                                    <textarea class="form-control additional-note-bg" placeholder="Enter additional note" name="additional_note" rows="4" id="additional_note" style="width: 100%;"></textarea>
+                                    <textarea class="form-control additional-note-bg" placeholder="Enter additional note..." name="additional_note" rows="4" id="additional_note" style="width: 100%;"></textarea>
                                 </form>
                             </div>
                         </div>

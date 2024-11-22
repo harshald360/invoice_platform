@@ -9,7 +9,7 @@
 	<div class="card-body">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card diff-section-card action-active">
+				<div class="card diff-section-card action-active element-border">
 					<!-- action-active -->
 					<div class="card-header border-0">
 						<h1 class="card-title"><strong>Invoices</strong></h1><br><br>
@@ -24,21 +24,21 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card diff-section-card">
+				<div class="card diff-section-card element-border">
 					<div class="card-header border-0">
 						<h3 class="card-title"><strong>Quotation</strong></h3><br><br>
 						<p class="mb-0">Seal the deal with customised quotations and win over potential clients.</p>
 					</div>
 					<div class="card-body bg-none">
 						<div class="quotation-action-section text-center">
-							<img src="<?= base_url("public") ?>/images/dashboard/create-invoice.png" alt="">
+							<img src="<?= base_url("public") ?>/images/dashboard/quotation.png" alt="">
 						</div>
 						<a href="#"><button class="btn  btn-block action-btn"><i class="nav-icon fas fa-plus"></i> Create New Quotation</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card diff-section-card">
+				<div class="card diff-section-card element-border">
 					<div class="card-header border-0">
 						<h3 class="card-title"><strong>Expenses</strong></h3><br><br>
 						<p class="mb-0">Seal the deal with customised quotations and win over potential clients.</p>
