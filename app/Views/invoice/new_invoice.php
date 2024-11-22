@@ -55,7 +55,6 @@
         <h2 class="card-title">
             Create Invoice
         </h2>
-        <br>
     </div>
     <div class="card-header numerical-progress  justify-content-between border-0">
         <div class="row">
@@ -65,7 +64,7 @@
                         <div class="small-circle active" style="width: 37px; height: 37px;">1</div>
                     </div>
                     <span>Invoice Details</span>
-                    <span class="right-direction-icon" ><i class="fas fa-chevron-right" ></i></span>
+                    <span class="right-direction-icon"><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
             <div class="col-md-3">
@@ -74,6 +73,7 @@
                         <div class="small-circle" style="width: 37px; height: 37px;">2</div>
                     </div>
                     <span>Add Banking Details</span>
+                    <span class="right-direction-icon"><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
             <div class="col-md-3">
@@ -286,7 +286,7 @@
                                     <div class="col-md-6 col-sm-6 text-right">-</div>
                                 </div>
                                 <div class="row py-2 total-pay-bg">
-                                    <div class="col-md-6 col-sm-6">Rounding Off :</div>
+                                    <div class="col-md-6 col-sm-6">Total Payable :</div>
                                     <div class="col-md-6 col-sm-6 text-right">6,540.00</div>
                                 </div>
                             </div>
@@ -302,7 +302,7 @@
                             </div>
                             <div class="card-body pt-0 px-2">
                                 <form action="">
-                                    <textarea class="form-control additional-note-bg" placeholder="Enter additional note" name="additional_note" rows="4" id="additional_note" style="width: 100%;"></textarea>
+                                    <textarea class="form-control additional-note-bg" placeholder="Enter additional note..." name="additional_note" rows="4" id="additional_note" style="width: 100%;"></textarea>
                                 </form>
                             </div>
                         </div>
