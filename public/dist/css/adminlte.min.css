@@ -30572,7 +30572,7 @@ html.maximized-card {
 
 .btn-group.show .btn-tool,
 .btn-tool:hover {
-    color: #495057
+    /* color: #495057 */
 }
 
 .btn-tool:focus,
@@ -56090,5 +56090,84 @@ a.text-muted:hover {
 .card-bg-restructure{
     background-color: #F5F9FE !important;
 }
+/* Dashbaord css start  */
+.action-active .invoice-action-section{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(153, 153, 153, 0) 100%);
+}
+.action-active{
+  background-color: rgba(115, 61, 217, 1) !important;
+}
+.action-active .action-btn{
+    background-color: #ffffff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5rem .75rem !important;
+    border-radius: 8px;
+}
+.action-active .card-header{
+    color: #ffffff;
+    font-weight: 500;
+}
+.action-btn{
+    background-color: rgba(115, 61, 217, 1);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem .75rem !important;
+}
+.action-active .quotation-action-section{
+    background: linear-gradient(180deg, #FFD9D9 0%, rgba(255, 255, 255, 0) 100%);
+}
+.action-active .expenses-action-section{
+    background: linear-gradient(180deg, #BEFFCA 0%, rgba(255, 255, 255, 0) 100%);
+}
+/* Dashbaord css end  */
+
+/* invoice form css */
+.invoice-form{
+    border: 1px solid rgba(115, 61, 217, 1) !important;
+}
+.invoice-header-bg{
+    background: rgba(221, 203, 255, 1) !important;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.05);
+}
+.uplog-buss-img-bg{
+    background-color: rgba(250, 247, 255, 1) !important;
+}
+#billed-to-form span{
+    color: rgba(100, 116, 139, 1);
+    font-weight: 500;
+}
+.form-control-border{
+    border-bottom: 1px solid rgba(115, 61, 217, 1);
+}
+.form-control-border:focus{
+    border-bottom: 1px solid rgba(115, 61, 217, 1) !important; 
+}
+.element-border{
+    border: 0.5px solid rgba(115, 61, 217, 1);
+}
+.table-header-bg{
+    background-color: rgba(237, 242, 249, 1);
+}
+.total-pay-bg{
+    background-color: rgba(163, 217, 51, 1);
+}
+.purple-new{
+    color: rgba(115, 61, 217, 1) !important;
+}
+.divider-line{
+    border-top:0.5px solid rgba(115, 61, 217, 1) !important
+}
+/* .additional-note-bg{
+    background-color: rgba(237, 242, 249, 1) !important;
+} */
+ .right-direction-icon{
+    position: absolute;
+    right: 1.5rem;
+    font-size: 30px;
+    color: rgba(148, 163, 184, 1)
+
+ }
 
   
