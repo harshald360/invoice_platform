@@ -56203,5 +56203,15 @@ a.text-muted:hover {
     background-color: rgba(115, 61, 217, 1);
     color: #fff;
 }
+/* Bank details  */
+.card-faint-border{
+    border: 1px solid #CBD5E1;
+}
+.for_border_bottom div{
+    border-bottom: 1px solid #CBD5E1;
+}
+.for_border_bottom div:first-child{
+    color: #64748B !important;
+}
 
   

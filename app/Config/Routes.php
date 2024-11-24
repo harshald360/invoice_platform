@@ -31,16 +31,10 @@ $routes->group("boards", function ($routes) {
     $routes->get("dashboard", "Dashboard::fBoardDashboard");
     $routes->group("invoice", function ($routes) {
         $routes->get("/", "Invoices::fCreateNewInvoice");
+        $routes->get("banking", "Invoices::fAddBankDetails");
+        $routes->get("share", "Invoices::fShareInvoice");
     });
     // Companies
-    $routes->group("companies", function ($routes) {
-        $routes->get("/", "Company_settings::index");
-        $routes->get("getCompanyList/(:num)", 'Company_settings::fGetCompanyList/$1');
-        $routes->get("new", "Company_settings::NewCompany");
-        $routes->post("add", "Company_settings::fAddCompany");
-        $routes->get("edit/(:any)", 'Company_settings::fEditCompanyData/$1');
-        $routes->get("status/(:num)/(:num)", 'Company_settings::fChangeUserStatus/$1/$2');
-    });
     $routes->group("companies", function ($routes) {
         $routes->get("/", "Company_settings::index");
         $routes->get("getCompanyList/(:num)", 'Company_settings::fGetCompanyList/$1');
